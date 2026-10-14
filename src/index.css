@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #090d16;
+    color: #e2e8f0;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-feature-settings: "tnum" 1;
+  }
+}
+
+/* Precision scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Subtle focus ring */
+*:focus-visible {
+  outline: 2px solid #3b82f6;
+  outline-offset: 1px;
+}
+
+/* Leaflet map container fix */
+.leaflet-container {
+  font-family: inherit;
+  background-color: #0b0f19 !important;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #0f172a !important;
+  color: #e2e8f0 !important;
+  border: 1px solid #334155 !important;
+  border-radius: 10px !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5) !important;
+}
+.leaflet-popup-tip {
+  background: #0f172a !important;
+  border: 1px solid #334155 !important;
+}
+
+/* Weather radar pulse animation */
+@keyframes radar-pulse {
+  0% {
+    transform: scale(0.92);
+    opacity: 0.75;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.3;
+  }
+  100% {
+    transform: scale(0.92);
+    opacity: 0.75;
+  }
+}
+
+.radar-sweep-cell {
+  animation: radar-pulse 4s ease-in-out infinite;
+}
+
+@keyframes radar-sweep-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.radar-sweep-line {
+  transform-origin: center center;
+  animation: radar-sweep-rotate 5s linear infinite;
+}
+

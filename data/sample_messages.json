@@ -1,0 +1,4438 @@
+[
+  {
+    "id": "SOS-VJ-001",
+    "timestamp": "2024-09-02T04:15:22Z",
+    "raw_text": "URGENT! 6 people trapped on terrace. Water reached first floor ceiling. One 82yr old heart patient without medicine. Need rescue boat immediately at Plot 45, Beside Vijaya Dairy, Ajit Singh Nagar, Vijayawada. Phone: 9848022331",
+    "language": "en",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 98480 22331",
+    "reported_location": "Plot 45, Beside Vijaya Dairy, Ajit Singh Nagar, Vijayawada",
+    "city": "Vijayawada",
+    "water_depth_estimate": "First floor submerged (8-9 ft)",
+    "people_stranded": 6,
+    "vulnerable_tags": [
+      "Elderly",
+      "Heart Patient"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-singh-nagar-vijaya-dairy",
+    "coordinates": {
+      "lat": 16.5362,
+      "lng": 80.6425
+    }
+  },
+  {
+    "id": "SOS-VJ-002",
+    "timestamp": "2024-09-02T04:22:10Z",
+    "raw_text": "Singh nagar vijaya dairy daggara water 9 feet vachesindi. Terrace paina unnam, heart patient thaatha unnaru tablets aipoyayi. Please boat pampandi phone 9848022331",
+    "language": "te",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 98480 22331",
+    "reported_location": "Vijaya Dairy area, Singh Nagar, Vijayawada",
+    "city": "Vijayawada",
+    "water_depth_estimate": "9 ft",
+    "people_stranded": 6,
+    "vulnerable_tags": [
+      "Elderly",
+      "Heart Patient"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-singh-nagar-vijaya-dairy",
+    "coordinates": {
+      "lat": 16.5365,
+      "lng": 80.6428
+    }
+  },
+  {
+    "id": "SOS-VJ-003",
+    "timestamp": "2024-09-02T04:31:05Z",
+    "raw_text": "Same building plot 45 near vijaya dairy ajit singh nagar. Family with grandfather on roof. Water still increasing rapidly. Please alert SDRF team #VijayawadaFloods",
+    "language": "en",
+    "source": "Twitter/X Alert",
+    "sender_contact": "@kiran_vjy",
+    "reported_location": "Plot 45, Near Vijaya Dairy, Ajit Singh Nagar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "8-10 ft",
+    "people_stranded": 6,
+    "vulnerable_tags": [
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-singh-nagar-vijaya-dairy",
+    "coordinates": {
+      "lat": 16.5362,
+      "lng": 80.6425
+    }
+  },
+  {
+    "id": "SOS-VJ-004",
+    "timestamp": "2024-09-02T05:04:18Z",
+    "raw_text": "మా ఇంట్లోకి బుడమేరు నీళ్లు చేరాయి. 3 నెలల పసిపిల్ల ఉంది, పాలు తాగడానికి ఏమీ లేవు. పైకప్పు మీదికి ఎక్కాము. చిట్టినగర్ సొరంగం దగ్గర, గొల్లపాలెం గట్టు, విజయవాడ. దయచేసి కాపాడండి 9440112233",
+    "language": "te",
+    "source": "Helpline 112",
+    "sender_contact": "+91 94401 12233",
+    "reported_location": "Gollapalem Gattu, Near Chittinagar Tunnel, Vijayawada",
+    "city": "Vijayawada",
+    "water_depth_estimate": "Chest level (5 ft)",
+    "people_stranded": 4,
+    "vulnerable_tags": [
+      "Infant",
+      "Nursing Mother"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "FOOD_WATER",
+    "cluster_group_id": "cluster-vj-chittinagar-gollapalem",
+    "coordinates": {
+      "lat": 16.5241,
+      "lng": 80.6092
+    }
+  },
+  {
+    "id": "SOS-VJ-005",
+    "timestamp": "2024-09-02T05:12:44Z",
+    "raw_text": "Emergency at Chittinagar tunnel area Gollapalem gattu. A 3-month-old baby and family trapped with water entering second level. Need milk and evacuation.",
+    "language": "en",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 94401 12233",
+    "reported_location": "Chittinagar tunnel, Gollapalem gattu, Vijayawada",
+    "city": "Vijayawada",
+    "water_depth_estimate": "5-6 ft",
+    "people_stranded": 4,
+    "vulnerable_tags": [
+      "Infant"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-chittinagar-gollapalem",
+    "coordinates": {
+      "lat": 16.5243,
+      "lng": 80.6095
+    }
+  },
+  {
+    "id": "SOS-VJ-006",
+    "timestamp": "2024-09-02T05:30:10Z",
+    "raw_text": "వాంబే కాలనీ బ్లాక్ 12, విజయవాడ. గ్రౌండ్ ఫ్లోర్ మొత్తం మునిగింది. మా అమ్మగారు పక్షవాతం రోగి, ఆమెను పైకి తీసుకెళ్లలేకపోతున్నాము. దయచేసి బోట్ సహాయం అందించండి. 7893045612",
+    "language": "te",
+    "source": "Helpline 112",
+    "sender_contact": "+91 78930 45612",
+    "reported_location": "Vambay Colony Block 12, Vijayawada",
+    "city": "Vijayawada",
+    "water_depth_estimate": "5.5 ft",
+    "people_stranded": 3,
+    "vulnerable_tags": [
+      "Paralyzed",
+      "Elderly",
+      "Medical Emergency"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "MEDICAL_EMERGENCY",
+    "cluster_group_id": "cluster-vj-vambay-block12",
+    "coordinates": {
+      "lat": 16.545,
+      "lng": 80.648
+    }
+  },
+  {
+    "id": "SOS-VJ-007",
+    "timestamp": "2024-09-02T05:38:22Z",
+    "raw_text": "Vambay Colony, Block 12, Singh Nagar area Vijayawada. Paralyzed elderly woman trapped in ground floor water. 3 people total. Need stretcher and rescue team immediately. 7893045612",
+    "language": "en",
+    "source": "Twitter/X Alert",
+    "sender_contact": "@vjy_volunteers",
+    "reported_location": "Block 12, Vambay Colony, Vijayawada",
+    "city": "Vijayawada",
+    "water_depth_estimate": "5.5 ft",
+    "people_stranded": 3,
+    "vulnerable_tags": [
+      "Paralyzed",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "MEDICAL_EMERGENCY",
+    "cluster_group_id": "cluster-vj-vambay-block12",
+    "coordinates": {
+      "lat": 16.545,
+      "lng": 80.648
+    }
+  },
+  {
+    "id": "SOS-VJ-008",
+    "timestamp": "2024-09-02T05:55:00Z",
+    "raw_text": "సింగ్ నగర్ ఫ్లైఓవర్ కింద 20 ఆవులు, 8 మంది రైతులు చిక్కుకుపోయారు. నీరు 7 అడుగులు ఉంది. గడ్డి మోపులు, తాగునీరు కావాలి. విజయవాడ సింగ్ నగర్.",
+    "language": "te",
+    "source": "Community Bot",
+    "sender_contact": "+91 88665 44332",
+    "reported_location": "Under Singh Nagar Flyover, Vijayawada",
+    "city": "Vijayawada",
+    "water_depth_estimate": "7 ft",
+    "people_stranded": 8,
+    "vulnerable_tags": [
+      "Livestock",
+      "Stranded Farmers"
+    ],
+    "ground_truth_urgency": "HIGH",
+    "ground_truth_category": "FOOD_WATER",
+    "cluster_group_id": "cluster-vj-singh-nagar-flyover",
+    "coordinates": {
+      "lat": 16.5398,
+      "lng": 80.6401
+    }
+  },
+  {
+    "id": "SOS-VJ-009",
+    "timestamp": "2024-09-02T06:05:12Z",
+    "raw_text": "Payakapuram near Kandraika main road. Water current very strong. 14 people inside apartment ground floor trying to break window grills. Water 6 feet. Contact 9100223344",
+    "language": "en",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 91002 23344",
+    "reported_location": "Kandraika Main Road, Payakapuram, Vijayawada",
+    "city": "Vijayawada",
+    "water_depth_estimate": "6 ft rapid flow",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Trapped Grills",
+      "Large Group"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-payakapuram-kandraika",
+    "coordinates": {
+      "lat": 16.551,
+      "lng": 80.6415
+    }
+  },
+  {
+    "id": "SOS-VJ-010",
+    "timestamp": "2024-09-02T06:14:30Z",
+    "raw_text": "పాయకాపురం కండ్రిక రోడ్ వద్ద అపార్ట్మెంట్ గ్రౌండ్ ఫ్లోర్ లో కిటికీ గ్రిల్స్ లో 14 మంది చిక్కుకున్నారు. నీటి ప్రవాహం వేగంగా ఉంది. గ్యాస్ కట్టర్ బోట్ కావాలి. ఫోన్ 9100223344",
+    "language": "te",
+    "source": "Helpline 112",
+    "sender_contact": "+91 91002 23344",
+    "reported_location": "Kandraika Road Apartment, Payakapuram, Vijayawada",
+    "city": "Vijayawada",
+    "water_depth_estimate": "6 ft",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Trapped Grills",
+      "Large Group"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-payakapuram-kandraika",
+    "coordinates": {
+      "lat": 16.5512,
+      "lng": 80.6418
+    }
+  },
+  {
+    "id": "SOS-KH-011",
+    "timestamp": "2024-09-02T06:30:00Z",
+    "raw_text": "ఖమ్మం మున్నేరు వాగు ఉధృతికి ప్రకాష్ నగర్ బ్రిడ్జి దగ్గర ఇళ్లు మునిగిపోయాయి. కరెంట్ లేదు, 15 మంది గుడి గోపురం పైకి ఎక్కారు. నీటి ప్రవాహం చాలా వేగంగా ఉంది, వెంటనే ఎన్డీఆర్ఎఫ్ బోట్లు కావాలి. ఖమ్మం ఫోన్: 9989123456",
+    "language": "te",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 99891 23456",
+    "reported_location": "Near Munneru Bridge, Prakash Nagar, Khammam",
+    "city": "Khammam",
+    "water_depth_estimate": "10-12 ft, high current",
+    "people_stranded": 15,
+    "vulnerable_tags": [
+      "Children",
+      "Elderly",
+      "Large Group"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-kh-munneru-prakashnagar",
+    "coordinates": {
+      "lat": 17.2472,
+      "lng": 80.1514
+    }
+  },
+  {
+    "id": "SOS-KH-012",
+    "timestamp": "2024-09-02T06:36:15Z",
+    "raw_text": "Munneru river flood in Khammam Prakash Nagar temple tower. 15 people holding iron pillars. Water flow extreme. Urgent helicopter or NDRF rescue required! Contact 9989123456",
+    "language": "en",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 99891 23456",
+    "reported_location": "Prakash Nagar temple near Munneru river, Khammam",
+    "city": "Khammam",
+    "water_depth_estimate": "12 ft",
+    "people_stranded": 15,
+    "vulnerable_tags": [
+      "Children",
+      "Large Group"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-kh-munneru-prakashnagar",
+    "coordinates": {
+      "lat": 17.247,
+      "lng": 80.1512
+    }
+  },
+  {
+    "id": "SOS-KH-013",
+    "timestamp": "2024-09-02T06:48:40Z",
+    "raw_text": "ఖమ్మం కరుణగిరి చర్చి వెనుక బస్తీలో 25 ఇళ్లు నీట మునిగాయి. నీరు రెండో అంతస్తుకు చేరుతోంది. గర్భిణీ స్త్రీ ఉన్నారు. బోట్లు రాలేదు ఇంకా. 9701123456",
+    "language": "te",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 97011 23456",
+    "reported_location": "Behind Karunagiri Church, Khammam",
+    "city": "Khammam",
+    "water_depth_estimate": "8-9 ft",
+    "people_stranded": 22,
+    "vulnerable_tags": [
+      "Pregnant",
+      "Large Group"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-kh-karunagiri-church",
+    "coordinates": {
+      "lat": 17.252,
+      "lng": 80.159
+    }
+  },
+  {
+    "id": "SOS-KH-014",
+    "timestamp": "2024-09-02T06:55:02Z",
+    "raw_text": "Karunagiri Church area Khammam: Over 20 people stranded on terrace, water level 8ft. One 7-month pregnant lady needs evacuation. 9701123456",
+    "language": "en",
+    "source": "Helpline 112",
+    "sender_contact": "+91 97011 23456",
+    "reported_location": "Karunagiri Shrine, Khammam",
+    "city": "Khammam",
+    "water_depth_estimate": "8 ft",
+    "people_stranded": 22,
+    "vulnerable_tags": [
+      "Pregnant"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-kh-karunagiri-church",
+    "coordinates": {
+      "lat": 17.2522,
+      "lng": 80.1592
+    }
+  },
+  {
+    "id": "SOS-KH-015",
+    "timestamp": "2024-09-02T07:12:18Z",
+    "raw_text": "బోక్కలగడ్డ ఖమ్మం. మున్నేరు కట్ట తెగి ఇళ్లలోకి నీరు చొచ్చుకొచ్చింది. చెట్లపైకి ఎక్కి కేకలు వేస్తున్నారు. 8 మంది ఉన్నారు. దయచేసి హెలికాప్టర్ లేదా స్పీడ్ బోట్ పంపండి. 9848123789",
+    "language": "te",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 98481 23789",
+    "reported_location": "Bokkalagadda, Near Munneru Bund, Khammam",
+    "city": "Khammam",
+    "water_depth_estimate": "10 ft rapid stream",
+    "people_stranded": 8,
+    "vulnerable_tags": [
+      "Climbing Trees",
+      "Imminent Drowning"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-kh-bokkalagadda-bund",
+    "coordinates": {
+      "lat": 17.2435,
+      "lng": 80.148
+    }
+  },
+  {
+    "id": "SOS-HYD-016",
+    "timestamp": "2024-09-02T07:30:15Z",
+    "raw_text": "Nadeem Colony, Tolichowki, Hyderabad. Cellar and ground floor completely submerged. Pregnant woman 8 months having severe pain. Cannot step out due to strong dirty water flow. House no 8-1-284/OU. Contact 9700345678",
+    "language": "en",
+    "source": "Helpline 112",
+    "sender_contact": "+91 97003 45678",
+    "reported_location": "House 8-1-284/OU, Nadeem Colony, Tolichowki, Hyderabad",
+    "city": "Hyderabad",
+    "water_depth_estimate": "6 ft in lane",
+    "people_stranded": 3,
+    "vulnerable_tags": [
+      "Pregnant",
+      "Medical Emergency"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "MEDICAL_EMERGENCY",
+    "cluster_group_id": "cluster-hyd-nadeem-colony",
+    "coordinates": {
+      "lat": 17.4042,
+      "lng": 78.4116
+    }
+  },
+  {
+    "id": "SOS-HYD-017",
+    "timestamp": "2024-09-02T07:35:40Z",
+    "raw_text": "नदीम कॉलोनी टोलीचौकी में पानी पहली मंजिल की सीढ़ियों तक आ गया है। एक गर्भवती महिला की हालत खराब है, तुरंत एम्बुलेंस या बोट चाहिए। H No 8-1-284/OU Tolichowki Hyderabad 9700345678",
+    "language": "hi",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 97003 45678",
+    "reported_location": "Nadeem Colony, Tolichowki, Hyderabad",
+    "city": "Hyderabad",
+    "water_depth_estimate": "6 ft",
+    "people_stranded": 3,
+    "vulnerable_tags": [
+      "Pregnant"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "MEDICAL_EMERGENCY",
+    "cluster_group_id": "cluster-hyd-nadeem-colony",
+    "coordinates": {
+      "lat": 17.4045,
+      "lng": 78.4118
+    }
+  },
+  {
+    "id": "SOS-HYD-018",
+    "timestamp": "2024-09-02T07:50:00Z",
+    "raw_text": "हाफिज़ बाबा नगर, ओल्ड सिटी हैदराबाद। नाले की दीवार टूटने से बस्तियों में पानी भर गया है। लगभग 50 लोग मस्जिद की छत पर हैं। पीने का पानी और बिस्कुट के पैकेट चाहिए। कोई करंट का खतरा नहीं है। फोन 9849001122",
+    "language": "hi",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 98490 01122",
+    "reported_location": "Hafiz Baba Nagar, Near Nala, Old City, Hyderabad",
+    "city": "Hyderabad",
+    "water_depth_estimate": "4-5 ft",
+    "people_stranded": 50,
+    "vulnerable_tags": [
+      "Large Group",
+      "Children"
+    ],
+    "ground_truth_urgency": "HIGH",
+    "ground_truth_category": "FOOD_WATER",
+    "cluster_group_id": "cluster-hyd-hafiz-baba-nagar",
+    "coordinates": {
+      "lat": 17.3245,
+      "lng": 78.489
+    }
+  },
+  {
+    "id": "SOS-HYD-019",
+    "timestamp": "2024-09-02T07:58:20Z",
+    "raw_text": "Hafiz Baba Nagar, Chandrayangutta, Hyderabad. Around 50 people on mosque roof after nala breach. Need food packets, drinking water, and blankets for children. 9849001122",
+    "language": "en",
+    "source": "Twitter/X Alert",
+    "sender_contact": "@hyd_disaster_watch",
+    "reported_location": "Masjid roof, Hafiz Baba Nagar, Hyderabad",
+    "city": "Hyderabad",
+    "water_depth_estimate": "4.5 ft",
+    "people_stranded": 50,
+    "vulnerable_tags": [
+      "Large Group",
+      "Children"
+    ],
+    "ground_truth_urgency": "HIGH",
+    "ground_truth_category": "FOOD_WATER",
+    "cluster_group_id": "cluster-hyd-hafiz-baba-nagar",
+    "coordinates": {
+      "lat": 17.3247,
+      "lng": 78.4892
+    }
+  },
+  {
+    "id": "SOS-HYD-020",
+    "timestamp": "2024-09-02T08:15:30Z",
+    "raw_text": "రామంతాపూర్ పెద్ద చెరువు పొంగి ఇళ్లలోకి నీరు వచ్చింది. రోడ్డుపై 3 అడుగుల నీరు ఉంది. కరెంట్ లేదు. ఎమర్జెన్సీ లేదు కానీ మోటార్ బోట్ వస్తే మంచిది. 9849112233",
+    "language": "te",
+    "source": "Helpline 112",
+    "sender_contact": "+91 98491 12233",
+    "reported_location": "Pedda Cheruvu, Ramanthapur, Hyderabad",
+    "city": "Hyderabad",
+    "water_depth_estimate": "3 ft",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Power Cut"
+    ],
+    "ground_truth_urgency": "MEDIUM",
+    "ground_truth_category": "SHELTER_EVAC",
+    "cluster_group_id": "cluster-hyd-ramanthapur-lake",
+    "coordinates": {
+      "lat": 17.398,
+      "lng": 78.537
+    }
+  },
+  {
+    "id": "SOS-PAT-021",
+    "timestamp": "2024-09-02T08:35:12Z",
+    "raw_text": "राजेंद्र नगर रोड नंबर 14, पटना। गंगा का पानी सड़कों पर 5 फीट भर चुका है। घर में एक डायलिसिस के मरीज हैं जिनकी आज डायलिसिस होनी थी, मशीन बंद है और ऑक्सीजन सिलिंडर खत्म होने वाला है। फोन: 9334123890",
+    "language": "hi",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 93341 23890",
+    "reported_location": "Road No 14, Rajendra Nagar, Patna",
+    "city": "Patna",
+    "water_depth_estimate": "5 ft",
+    "people_stranded": 4,
+    "vulnerable_tags": [
+      "Dialysis Patient",
+      "Oxygen Dependency"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "MEDICAL_EMERGENCY",
+    "cluster_group_id": "cluster-pat-rajendra-nagar-rd14",
+    "coordinates": {
+      "lat": 25.5976,
+      "lng": 85.1582
+    }
+  },
+  {
+    "id": "SOS-PAT-022",
+    "timestamp": "2024-09-02T08:42:00Z",
+    "raw_text": "CRITICAL MEDICAL: Dialysis patient stranded at Rajendra Nagar Road 14 Patna. Oxygen running out in 2 hours. Roads waterlogged up to waist. Need medical evacuation boat ASAP. Contact 9334123890",
+    "language": "en",
+    "source": "Twitter/X Alert",
+    "sender_contact": "@patna_relief",
+    "reported_location": "Road No 14, Rajendra Nagar, Patna",
+    "city": "Patna",
+    "water_depth_estimate": "5 ft",
+    "people_stranded": 4,
+    "vulnerable_tags": [
+      "Dialysis Patient",
+      "Oxygen Dependency"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "MEDICAL_EMERGENCY",
+    "cluster_group_id": "cluster-pat-rajendra-nagar-rd14",
+    "coordinates": {
+      "lat": 25.5976,
+      "lng": 85.1582
+    }
+  },
+  {
+    "id": "SOS-PAT-023",
+    "timestamp": "2024-09-02T08:58:15Z",
+    "raw_text": "कंकड़बाग ऑटो स्टैंड के पास जलजमाव 4 फीट। सांप और बिच्छू घर में घुस रहे हैं। 2 छोटे बच्चे हैं। कृपया सुरक्षित जगह पहुंचाने के लिए नाव भेजें। फोन: 9431012345",
+    "language": "hi",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 94310 12345",
+    "reported_location": "Near Auto Stand, Kankarbagh, Patna",
+    "city": "Patna",
+    "water_depth_estimate": "4 ft with reptile hazard",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Children",
+      "Reptile Hazard"
+    ],
+    "ground_truth_urgency": "HIGH",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-pat-kankarbagh-stand",
+    "coordinates": {
+      "lat": 25.589,
+      "lng": 85.148
+    }
+  },
+  {
+    "id": "SOS-DEL-024",
+    "timestamp": "2024-09-02T09:15:20Z",
+    "raw_text": "यमुना बाजार, कश्मीरी गेट के पास। झुग्गियां पूरी तरह डूब गई हैं। करीब 30 लोग एक पुराने स्कूल की छत पर शरण लिए हुए हैं। पीने का साफ पानी और बच्चों के लिए खाना बिल्कुल नहीं है। बाढ़ का पानी बढ़ रहा है। 9811223344",
+    "language": "hi",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 98112 23344",
+    "reported_location": "Yamuna Bazaar, Near Kashmiri Gate, Old Delhi",
+    "city": "Delhi",
+    "water_depth_estimate": "7 ft in slums",
+    "people_stranded": 30,
+    "vulnerable_tags": [
+      "Children",
+      "Large Group",
+      "Dehydration"
+    ],
+    "ground_truth_urgency": "HIGH",
+    "ground_truth_category": "FOOD_WATER",
+    "cluster_group_id": "cluster-del-yamuna-bazaar",
+    "coordinates": {
+      "lat": 28.6675,
+      "lng": 77.2341
+    }
+  },
+  {
+    "id": "SOS-DEL-025",
+    "timestamp": "2024-09-02T09:22:19Z",
+    "raw_text": "Yamuna Bazaar near ISBT / Kashmiri Gate. 30 people including small children on school roof. Water level still high. Urgent need of drinking water packets and dry rations. 9811223344",
+    "language": "en",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 98112 23344",
+    "reported_location": "Yamuna Bazaar Old School, Kashmiri Gate, Delhi",
+    "city": "Delhi",
+    "water_depth_estimate": "7 ft",
+    "people_stranded": 30,
+    "vulnerable_tags": [
+      "Children",
+      "Large Group"
+    ],
+    "ground_truth_urgency": "HIGH",
+    "ground_truth_category": "FOOD_WATER",
+    "cluster_group_id": "cluster-del-yamuna-bazaar",
+    "coordinates": {
+      "lat": 28.6678,
+      "lng": 77.2345
+    }
+  },
+  {
+    "id": "SOS-DEL-026",
+    "timestamp": "2024-09-02T09:35:10Z",
+    "raw_text": "मोंटिसरी तिब्बती मार्केट, मजनू का टीला दिल्ली। रिंग रोड पर पानी 3 फीट। क्या कश्मीरी गेट बस अड्डा चालू है या बंद है? केवल जानकारी चाहिए।",
+    "language": "hi",
+    "source": "Helpline 112",
+    "sender_contact": "+91 98100 99887",
+    "reported_location": "Majnu Ka Tilla, Ring Road, Delhi",
+    "city": "Delhi",
+    "water_depth_estimate": "3 ft on road",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-del-majnu-ka-tilla-info",
+    "coordinates": {
+      "lat": 28.701,
+      "lng": 77.228
+    }
+  },
+  {
+    "id": "SOS-CHE-027",
+    "timestamp": "2024-09-02T10:05:44Z",
+    "raw_text": "Velachery AGS Colony 4th Main Road, Chennai. Transformers sparked in floodwater, live wire snapping in water outside building. 18 residents stuck on 2nd floor. Turn off substation grid immediately!",
+    "language": "en",
+    "source": "Twitter/X Alert",
+    "sender_contact": "@chennaisafe",
+    "reported_location": "AGS Colony 4th Main Road, Velachery, Chennai",
+    "city": "Chennai",
+    "water_depth_estimate": "4-5 ft with live electric hazard",
+    "people_stranded": 18,
+    "vulnerable_tags": [
+      "Electrocution Risk",
+      "Hazardous"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "INFRASTRUCTURE",
+    "cluster_group_id": "cluster-che-velachery-ags",
+    "coordinates": {
+      "lat": 12.9815,
+      "lng": 80.218
+    }
+  },
+  {
+    "id": "SOS-CHE-028",
+    "timestamp": "2024-09-02T10:12:30Z",
+    "raw_text": "AGS Colony Velachery Chennai: Live electric wire fallen in water near apartment gate. Please do not send boats until TNEB cuts power in feeder 3. 18 people inside.",
+    "language": "en",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 94440 88776",
+    "reported_location": "AGS Colony, Velachery, Chennai",
+    "city": "Chennai",
+    "water_depth_estimate": "4.5 ft",
+    "people_stranded": 18,
+    "vulnerable_tags": [
+      "Electrocution Risk"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "INFRASTRUCTURE",
+    "cluster_group_id": "cluster-che-velachery-ags",
+    "coordinates": {
+      "lat": 12.9818,
+      "lng": 80.2185
+    }
+  },
+  {
+    "id": "SOS-CHE-029",
+    "timestamp": "2024-09-02T10:25:12Z",
+    "raw_text": "Mudichur Varadharajapuram, Chennai. Over 40 residents stranded in apartment top floors. Need drinking water and baby food. Water stagnant at 5 feet. 9444123456",
+    "language": "en",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 94441 23456",
+    "reported_location": "Varadharajapuram, Mudichur, Chennai",
+    "city": "Chennai",
+    "water_depth_estimate": "5 ft",
+    "people_stranded": 40,
+    "vulnerable_tags": [
+      "Infants",
+      "Large Group"
+    ],
+    "ground_truth_urgency": "HIGH",
+    "ground_truth_category": "FOOD_WATER",
+    "cluster_group_id": "cluster-che-mudichur",
+    "coordinates": {
+      "lat": 12.915,
+      "lng": 80.065
+    }
+  },
+  {
+    "id": "SOS-ASM-030",
+    "timestamp": "2024-09-02T10:45:00Z",
+    "raw_text": "Silchar, Tarapur, Cachar district. Embankment breached at Bethukandi. Water rushing into residential sectors. 12 families including infants and bedridden grandmother moved to rooftop of primary school. Need rescue dinghy.",
+    "language": "en",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 94350 11223",
+    "reported_location": "Tarapur, Near Bethukandi, Silchar",
+    "city": "Silchar",
+    "water_depth_estimate": "6 ft rushing current",
+    "people_stranded": 35,
+    "vulnerable_tags": [
+      "Elderly",
+      "Infants",
+      "Large Group"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-asm-silchar-tarapur",
+    "coordinates": {
+      "lat": 24.8333,
+      "lng": 92.7789
+    }
+  },
+  {
+    "id": "SOS-ASM-031",
+    "timestamp": "2024-09-02T10:51:15Z",
+    "raw_text": "कछार जिला सिलचर तारापुर: बांध टूटने से पानी तेजी से स्कूल की तरफ आ रहा है। 35 से ज्यादा लोग फंसे हैं। खाना पानी कुछ नहीं है। सेना या एनडीआरएफ की नाव भेजिए।",
+    "language": "hi",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 94350 11223",
+    "reported_location": "Tarapur Primary School, Silchar, Cachar",
+    "city": "Silchar",
+    "water_depth_estimate": "6-7 ft",
+    "people_stranded": 35,
+    "vulnerable_tags": [
+      "Large Group"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-asm-silchar-tarapur",
+    "coordinates": {
+      "lat": 24.8335,
+      "lng": 92.7792
+    }
+  },
+  {
+    "id": "SOS-KHA-032",
+    "timestamp": "2026-10-13T22:03:13.447Z",
+    "raw_text": "అత్యవసరం: Danavaigudem Munneru Canal వద్ద 5 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 101441 10031",
+    "reported_location": "Danavaigudem Munneru Canal",
+    "city": "Khammam",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-kh-danavaigudem",
+    "coordinates": {
+      "lat": 17.2378,
+      "lng": 80.1437
+    }
+  },
+  {
+    "id": "SOS-HYD-033",
+    "timestamp": "2026-10-13T22:06:13.448Z",
+    "raw_text": "Alwal Lake Inundation Ward 134 के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Helpline 112",
+    "sender_contact": "+91 101552 10032",
+    "reported_location": "Alwal Lake Inundation Ward 134",
+    "city": "Hyderabad",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-hyd-alwal-lake",
+    "coordinates": {
+      "lat": 17.5037,
+      "lng": 78.5165
+    }
+  },
+  {
+    "id": "SOS-HYD-034",
+    "timestamp": "2026-10-13T22:09:13.448Z",
+    "raw_text": "Emergency in Chaderghat Causeway Musi Bridge. Building surrounded by 6ft swift currents. 11 trapped including small children. Please dispatch SDRF.",
+    "language": "en",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 101663 10033",
+    "reported_location": "Chaderghat Causeway Musi Bridge",
+    "city": "Hyderabad",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 11,
+    "vulnerable_tags": [
+      "Children",
+      "Swift Current"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-hyd-chaderghat",
+    "coordinates": {
+      "lat": 17.381,
+      "lng": 78.491
+    }
+  },
+  {
+    "id": "SOS-PAT-035",
+    "timestamp": "2026-10-13T22:12:13.448Z",
+    "raw_text": "అత్యవసరం: Danapur Cantt Low-Lying Mohalla వద్ద 14 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Community Bot",
+    "sender_contact": "+91 101774 10034",
+    "reported_location": "Danapur Cantt Low-Lying Mohalla",
+    "city": "Patna",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-pat-danapur",
+    "coordinates": {
+      "lat": 25.6326,
+      "lng": 85.0395
+    }
+  },
+  {
+    "id": "SOS-CHE-036",
+    "timestamp": "2026-10-13T22:15:13.448Z",
+    "raw_text": "Pallikaranai Marshland Enclave के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 101885 10035",
+    "reported_location": "Pallikaranai Marshland Enclave",
+    "city": "Chennai",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-che-pallikaranai",
+    "coordinates": {
+      "lat": 12.9327,
+      "lng": 80.2023
+    }
+  },
+  {
+    "id": "SOS-VIJ-037",
+    "timestamp": "2026-10-13T22:18:13.448Z",
+    "raw_text": "Flooding at Ajit Singh Nagar Sector 2. Water level reaching waist depth, 2 people stranded without food/drinking water. Need rescue boat support.",
+    "language": "en",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 101996 10036",
+    "reported_location": "Ajit Singh Nagar Sector 2",
+    "city": "Vijayawada",
+    "water_depth_estimate": "4-6 ft",
+    "people_stranded": 2,
+    "vulnerable_tags": [
+      "Food Shortage"
+    ],
+    "ground_truth_urgency": "HIGH",
+    "ground_truth_category": "FOOD_WATER",
+    "cluster_group_id": "cluster-vj-singh-nagar-sec2",
+    "coordinates": {
+      "lat": 16.5345,
+      "lng": 80.6426
+    }
+  },
+  {
+    "id": "SOS-VIJ-038",
+    "timestamp": "2026-10-13T22:21:13.448Z",
+    "raw_text": "అత్యవసరం: Pipula Road, Singh Nagar వద్ద 5 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Helpline 112",
+    "sender_contact": "+91 102107 10037",
+    "reported_location": "Pipula Road, Singh Nagar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-pipula-road",
+    "coordinates": {
+      "lat": 16.5369,
+      "lng": 80.6433
+    }
+  },
+  {
+    "id": "SOS-VIJ-039",
+    "timestamp": "2026-10-13T22:24:13.448Z",
+    "raw_text": "Bhavanipuram Swathi Theatre Area के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 102218 10038",
+    "reported_location": "Bhavanipuram Swathi Theatre Area",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-bhavanipuram",
+    "coordinates": {
+      "lat": 16.5209,
+      "lng": 80.6009
+    }
+  },
+  {
+    "id": "SOS-VIJ-040",
+    "timestamp": "2026-10-13T22:27:13.448Z",
+    "raw_text": "Road blocked with 2ft water in Payakapuram Shanti Nagar. Are relief vehicles allowed to pass? Inquiring for relief supply truck.",
+    "language": "en",
+    "source": "Community Bot",
+    "sender_contact": "+91 102329 10039",
+    "reported_location": "Payakapuram Shanti Nagar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-payakapuram-shanti",
+    "coordinates": {
+      "lat": 16.5509,
+      "lng": 80.6378
+    }
+  },
+  {
+    "id": "SOS-VIJ-041",
+    "timestamp": "2026-10-13T22:30:13.448Z",
+    "raw_text": "అత్యవసరం: Kandrika Main Bazaar వద్ద 14 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 102440 10040",
+    "reported_location": "Kandrika Main Bazaar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-kandrika-bazaar",
+    "coordinates": {
+      "lat": 16.5562,
+      "lng": 80.643
+    }
+  },
+  {
+    "id": "SOS-VIJ-042",
+    "timestamp": "2026-10-13T22:33:13.448Z",
+    "raw_text": "Madhuranagar Railway Gate के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 102551 10041",
+    "reported_location": "Madhuranagar Railway Gate",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-madhuranagar",
+    "coordinates": {
+      "lat": 16.5175,
+      "lng": 80.646
+    }
+  },
+  {
+    "id": "SOS-KHA-043",
+    "timestamp": "2026-10-13T22:36:13.448Z",
+    "raw_text": "URGENT MEDICAL: Elderly cardiac patient at Mothe Village Road. Water 7ft inside lane. Emergency evacuation required ASAP for 2 people.",
+    "language": "en",
+    "source": "Helpline 112",
+    "sender_contact": "+91 102662 10042",
+    "reported_location": "Mothe Village Road",
+    "city": "Khammam",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 2,
+    "vulnerable_tags": [
+      "Elderly",
+      "Cardiac Patient"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "MEDICAL_EMERGENCY",
+    "cluster_group_id": "cluster-kh-mothe",
+    "coordinates": {
+      "lat": 17.2573,
+      "lng": 80.1638
+    }
+  },
+  {
+    "id": "SOS-KHA-044",
+    "timestamp": "2026-10-13T22:39:13.448Z",
+    "raw_text": "అత్యవసరం: Danavaigudem Munneru Canal వద్ద 5 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 102773 10043",
+    "reported_location": "Danavaigudem Munneru Canal",
+    "city": "Khammam",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-kh-danavaigudem",
+    "coordinates": {
+      "lat": 17.2365,
+      "lng": 80.1427
+    }
+  },
+  {
+    "id": "SOS-HYD-045",
+    "timestamp": "2026-10-13T22:42:13.448Z",
+    "raw_text": "Alwal Lake Inundation Ward 134 के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Community Bot",
+    "sender_contact": "+91 102884 10044",
+    "reported_location": "Alwal Lake Inundation Ward 134",
+    "city": "Hyderabad",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-hyd-alwal-lake",
+    "coordinates": {
+      "lat": 17.5021,
+      "lng": 78.517
+    }
+  },
+  {
+    "id": "SOS-HYD-046",
+    "timestamp": "2026-10-13T22:45:13.448Z",
+    "raw_text": "Emergency in Chaderghat Causeway Musi Bridge. Building surrounded by 6ft swift currents. 11 trapped including small children. Please dispatch SDRF.",
+    "language": "en",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 102995 10045",
+    "reported_location": "Chaderghat Causeway Musi Bridge",
+    "city": "Hyderabad",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 11,
+    "vulnerable_tags": [
+      "Children",
+      "Swift Current"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-hyd-chaderghat",
+    "coordinates": {
+      "lat": 17.3806,
+      "lng": 78.4926
+    }
+  },
+  {
+    "id": "SOS-PAT-047",
+    "timestamp": "2026-10-13T22:48:13.448Z",
+    "raw_text": "అత్యవసరం: Danapur Cantt Low-Lying Mohalla వద్ద 14 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 103106 10046",
+    "reported_location": "Danapur Cantt Low-Lying Mohalla",
+    "city": "Patna",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-pat-danapur",
+    "coordinates": {
+      "lat": 25.6337,
+      "lng": 85.0407
+    }
+  },
+  {
+    "id": "SOS-CHE-048",
+    "timestamp": "2026-10-13T22:51:13.448Z",
+    "raw_text": "Pallikaranai Marshland Enclave के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Helpline 112",
+    "sender_contact": "+91 103217 10047",
+    "reported_location": "Pallikaranai Marshland Enclave",
+    "city": "Chennai",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-che-pallikaranai",
+    "coordinates": {
+      "lat": 12.9344,
+      "lng": 80.202
+    }
+  },
+  {
+    "id": "SOS-VIJ-049",
+    "timestamp": "2026-10-13T22:54:13.448Z",
+    "raw_text": "Flooding at Ajit Singh Nagar Sector 2. Water level reaching waist depth, 2 people stranded without food/drinking water. Need rescue boat support.",
+    "language": "en",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 103328 10048",
+    "reported_location": "Ajit Singh Nagar Sector 2",
+    "city": "Vijayawada",
+    "water_depth_estimate": "4-6 ft",
+    "people_stranded": 2,
+    "vulnerable_tags": [
+      "Food Shortage"
+    ],
+    "ground_truth_urgency": "HIGH",
+    "ground_truth_category": "FOOD_WATER",
+    "cluster_group_id": "cluster-vj-singh-nagar-sec2",
+    "coordinates": {
+      "lat": 16.5352,
+      "lng": 80.6411
+    }
+  },
+  {
+    "id": "SOS-VIJ-050",
+    "timestamp": "2026-10-13T22:57:13.448Z",
+    "raw_text": "అత్యవసరం: Pipula Road, Singh Nagar వద్ద 5 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Community Bot",
+    "sender_contact": "+91 103439 10049",
+    "reported_location": "Pipula Road, Singh Nagar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-pipula-road",
+    "coordinates": {
+      "lat": 16.5359,
+      "lng": 80.6419
+    }
+  },
+  {
+    "id": "SOS-VIJ-051",
+    "timestamp": "2026-10-13T23:00:13.448Z",
+    "raw_text": "Bhavanipuram Swathi Theatre Area के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 103550 10050",
+    "reported_location": "Bhavanipuram Swathi Theatre Area",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-bhavanipuram",
+    "coordinates": {
+      "lat": 16.5192,
+      "lng": 80.6009
+    }
+  },
+  {
+    "id": "SOS-VIJ-052",
+    "timestamp": "2026-10-13T23:03:13.448Z",
+    "raw_text": "Road blocked with 2ft water in Payakapuram Shanti Nagar. Are relief vehicles allowed to pass? Inquiring for relief supply truck.",
+    "language": "en",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 103661 10051",
+    "reported_location": "Payakapuram Shanti Nagar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-payakapuram-shanti",
+    "coordinates": {
+      "lat": 16.55,
+      "lng": 80.6392
+    }
+  },
+  {
+    "id": "SOS-VIJ-053",
+    "timestamp": "2026-10-13T23:06:13.448Z",
+    "raw_text": "అత్యవసరం: Kandrika Main Bazaar వద్ద 14 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Helpline 112",
+    "sender_contact": "+91 103772 10052",
+    "reported_location": "Kandrika Main Bazaar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-kandrika-bazaar",
+    "coordinates": {
+      "lat": 16.557,
+      "lng": 80.6445
+    }
+  },
+  {
+    "id": "SOS-VIJ-054",
+    "timestamp": "2026-10-13T23:09:13.448Z",
+    "raw_text": "Madhuranagar Railway Gate के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 103883 10053",
+    "reported_location": "Madhuranagar Railway Gate",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-madhuranagar",
+    "coordinates": {
+      "lat": 16.5192,
+      "lng": 80.6462
+    }
+  },
+  {
+    "id": "SOS-KHA-055",
+    "timestamp": "2026-10-13T23:12:13.448Z",
+    "raw_text": "URGENT MEDICAL: Elderly cardiac patient at Mothe Village Road. Water 7ft inside lane. Emergency evacuation required ASAP for 2 people.",
+    "language": "en",
+    "source": "Community Bot",
+    "sender_contact": "+91 103994 10054",
+    "reported_location": "Mothe Village Road",
+    "city": "Khammam",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 2,
+    "vulnerable_tags": [
+      "Elderly",
+      "Cardiac Patient"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "MEDICAL_EMERGENCY",
+    "cluster_group_id": "cluster-kh-mothe",
+    "coordinates": {
+      "lat": 17.2583,
+      "lng": 80.1625
+    }
+  },
+  {
+    "id": "SOS-KHA-056",
+    "timestamp": "2026-10-13T23:15:13.448Z",
+    "raw_text": "అత్యవసరం: Danavaigudem Munneru Canal వద్ద 5 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 104105 10055",
+    "reported_location": "Danavaigudem Munneru Canal",
+    "city": "Khammam",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-kh-danavaigudem",
+    "coordinates": {
+      "lat": 17.236,
+      "lng": 80.1411
+    }
+  },
+  {
+    "id": "SOS-HYD-057",
+    "timestamp": "2026-10-13T23:18:13.448Z",
+    "raw_text": "Alwal Lake Inundation Ward 134 के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 104216 10056",
+    "reported_location": "Alwal Lake Inundation Ward 134",
+    "city": "Hyderabad",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-hyd-alwal-lake",
+    "coordinates": {
+      "lat": 17.5004,
+      "lng": 78.5166
+    }
+  },
+  {
+    "id": "SOS-HYD-058",
+    "timestamp": "2026-10-13T23:21:13.448Z",
+    "raw_text": "Emergency in Chaderghat Causeway Musi Bridge. Building surrounded by 6ft swift currents. 11 trapped including small children. Please dispatch SDRF.",
+    "language": "en",
+    "source": "Helpline 112",
+    "sender_contact": "+91 104327 10057",
+    "reported_location": "Chaderghat Causeway Musi Bridge",
+    "city": "Hyderabad",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 11,
+    "vulnerable_tags": [
+      "Children",
+      "Swift Current"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-hyd-chaderghat",
+    "coordinates": {
+      "lat": 17.3793,
+      "lng": 78.4937
+    }
+  },
+  {
+    "id": "SOS-PAT-059",
+    "timestamp": "2026-10-13T23:24:13.448Z",
+    "raw_text": "అత్యవసరం: Danapur Cantt Low-Lying Mohalla వద్ద 14 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 104438 10058",
+    "reported_location": "Danapur Cantt Low-Lying Mohalla",
+    "city": "Patna",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-pat-danapur",
+    "coordinates": {
+      "lat": 25.634,
+      "lng": 85.0424
+    }
+  },
+  {
+    "id": "SOS-CHE-060",
+    "timestamp": "2026-10-13T23:27:13.448Z",
+    "raw_text": "Pallikaranai Marshland Enclave के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Community Bot",
+    "sender_contact": "+91 104549 10059",
+    "reported_location": "Pallikaranai Marshland Enclave",
+    "city": "Chennai",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-che-pallikaranai",
+    "coordinates": {
+      "lat": 12.9359,
+      "lng": 80.2027
+    }
+  },
+  {
+    "id": "SOS-VIJ-061",
+    "timestamp": "2026-10-13T23:30:13.448Z",
+    "raw_text": "Flooding at Ajit Singh Nagar Sector 2. Water level reaching waist depth, 2 people stranded without food/drinking water. Need rescue boat support.",
+    "language": "en",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 104660 10060",
+    "reported_location": "Ajit Singh Nagar Sector 2",
+    "city": "Vijayawada",
+    "water_depth_estimate": "4-6 ft",
+    "people_stranded": 2,
+    "vulnerable_tags": [
+      "Food Shortage"
+    ],
+    "ground_truth_urgency": "HIGH",
+    "ground_truth_category": "FOOD_WATER",
+    "cluster_group_id": "cluster-vj-singh-nagar-sec2",
+    "coordinates": {
+      "lat": 16.5366,
+      "lng": 80.6401
+    }
+  },
+  {
+    "id": "SOS-VIJ-062",
+    "timestamp": "2026-10-13T23:33:13.448Z",
+    "raw_text": "అత్యవసరం: Pipula Road, Singh Nagar వద్ద 5 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 104771 10061",
+    "reported_location": "Pipula Road, Singh Nagar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-pipula-road",
+    "coordinates": {
+      "lat": 16.5359,
+      "lng": 80.6402
+    }
+  },
+  {
+    "id": "SOS-VIJ-063",
+    "timestamp": "2026-10-13T23:36:13.448Z",
+    "raw_text": "Bhavanipuram Swathi Theatre Area के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Helpline 112",
+    "sender_contact": "+91 104882 10062",
+    "reported_location": "Bhavanipuram Swathi Theatre Area",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-bhavanipuram",
+    "coordinates": {
+      "lat": 16.5178,
+      "lng": 80.6
+    }
+  },
+  {
+    "id": "SOS-VIJ-064",
+    "timestamp": "2026-10-13T23:39:13.448Z",
+    "raw_text": "Road blocked with 2ft water in Payakapuram Shanti Nagar. Are relief vehicles allowed to pass? Inquiring for relief supply truck.",
+    "language": "en",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 104993 10063",
+    "reported_location": "Payakapuram Shanti Nagar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-payakapuram-shanti",
+    "coordinates": {
+      "lat": 16.5485,
+      "lng": 80.64
+    }
+  },
+  {
+    "id": "SOS-VIJ-065",
+    "timestamp": "2026-10-13T23:42:13.448Z",
+    "raw_text": "అత్యవసరం: Kandrika Main Bazaar వద్ద 14 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Community Bot",
+    "sender_contact": "+91 105104 10064",
+    "reported_location": "Kandrika Main Bazaar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-kandrika-bazaar",
+    "coordinates": {
+      "lat": 16.5568,
+      "lng": 80.6462
+    }
+  },
+  {
+    "id": "SOS-VIJ-066",
+    "timestamp": "2026-10-13T23:45:13.448Z",
+    "raw_text": "Madhuranagar Railway Gate के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 105215 10065",
+    "reported_location": "Madhuranagar Railway Gate",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-madhuranagar",
+    "coordinates": {
+      "lat": 16.5205,
+      "lng": 80.6473
+    }
+  },
+  {
+    "id": "SOS-KHA-067",
+    "timestamp": "2026-10-13T23:48:13.448Z",
+    "raw_text": "URGENT MEDICAL: Elderly cardiac patient at Mothe Village Road. Water 7ft inside lane. Emergency evacuation required ASAP for 2 people.",
+    "language": "en",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 105326 10066",
+    "reported_location": "Mothe Village Road",
+    "city": "Khammam",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 2,
+    "vulnerable_tags": [
+      "Elderly",
+      "Cardiac Patient"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "MEDICAL_EMERGENCY",
+    "cluster_group_id": "cluster-kh-mothe",
+    "coordinates": {
+      "lat": 17.2599,
+      "lng": 80.162
+    }
+  },
+  {
+    "id": "SOS-KHA-068",
+    "timestamp": "2026-10-13T23:51:13.448Z",
+    "raw_text": "అత్యవసరం: Danavaigudem Munneru Canal వద్ద 5 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Helpline 112",
+    "sender_contact": "+91 105437 10067",
+    "reported_location": "Danavaigudem Munneru Canal",
+    "city": "Khammam",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-kh-danavaigudem",
+    "coordinates": {
+      "lat": 17.2364,
+      "lng": 80.1394
+    }
+  },
+  {
+    "id": "SOS-HYD-069",
+    "timestamp": "2026-10-13T23:54:13.448Z",
+    "raw_text": "Alwal Lake Inundation Ward 134 के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 105548 10068",
+    "reported_location": "Alwal Lake Inundation Ward 134",
+    "city": "Hyderabad",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-hyd-alwal-lake",
+    "coordinates": {
+      "lat": 17.4993,
+      "lng": 78.5153
+    }
+  },
+  {
+    "id": "SOS-HYD-070",
+    "timestamp": "2026-10-13T23:57:13.448Z",
+    "raw_text": "Emergency in Chaderghat Causeway Musi Bridge. Building surrounded by 6ft swift currents. 11 trapped including small children. Please dispatch SDRF.",
+    "language": "en",
+    "source": "Community Bot",
+    "sender_contact": "+91 105659 10069",
+    "reported_location": "Chaderghat Causeway Musi Bridge",
+    "city": "Hyderabad",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 11,
+    "vulnerable_tags": [
+      "Children",
+      "Swift Current"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-hyd-chaderghat",
+    "coordinates": {
+      "lat": 17.3777,
+      "lng": 78.494
+    }
+  },
+  {
+    "id": "SOS-PAT-071",
+    "timestamp": "2026-10-14T00:00:13.448Z",
+    "raw_text": "అత్యవసరం: Danapur Cantt Low-Lying Mohalla వద్ద 14 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 105770 10070",
+    "reported_location": "Danapur Cantt Low-Lying Mohalla",
+    "city": "Patna",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-pat-danapur",
+    "coordinates": {
+      "lat": 25.6333,
+      "lng": 85.0439
+    }
+  },
+  {
+    "id": "SOS-CHE-072",
+    "timestamp": "2026-10-14T00:03:13.448Z",
+    "raw_text": "Pallikaranai Marshland Enclave के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 105881 10071",
+    "reported_location": "Pallikaranai Marshland Enclave",
+    "city": "Chennai",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-che-pallikaranai",
+    "coordinates": {
+      "lat": 12.9369,
+      "lng": 80.2041
+    }
+  },
+  {
+    "id": "SOS-VIJ-073",
+    "timestamp": "2026-10-14T00:06:13.448Z",
+    "raw_text": "Flooding at Ajit Singh Nagar Sector 2. Water level reaching waist depth, 2 people stranded without food/drinking water. Need rescue boat support.",
+    "language": "en",
+    "source": "Helpline 112",
+    "sender_contact": "+91 105992 10072",
+    "reported_location": "Ajit Singh Nagar Sector 2",
+    "city": "Vijayawada",
+    "water_depth_estimate": "4-6 ft",
+    "people_stranded": 2,
+    "vulnerable_tags": [
+      "Food Shortage"
+    ],
+    "ground_truth_urgency": "HIGH",
+    "ground_truth_category": "FOOD_WATER",
+    "cluster_group_id": "cluster-vj-singh-nagar-sec2",
+    "coordinates": {
+      "lat": 16.5383,
+      "lng": 80.6401
+    }
+  },
+  {
+    "id": "SOS-VIJ-074",
+    "timestamp": "2026-10-14T00:09:13.448Z",
+    "raw_text": "అత్యవసరం: Pipula Road, Singh Nagar వద్ద 5 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 106103 10073",
+    "reported_location": "Pipula Road, Singh Nagar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-pipula-road",
+    "coordinates": {
+      "lat": 16.5368,
+      "lng": 80.6388
+    }
+  },
+  {
+    "id": "SOS-VIJ-075",
+    "timestamp": "2026-10-14T00:12:13.448Z",
+    "raw_text": "Bhavanipuram Swathi Theatre Area के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Community Bot",
+    "sender_contact": "+91 106214 10074",
+    "reported_location": "Bhavanipuram Swathi Theatre Area",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-bhavanipuram",
+    "coordinates": {
+      "lat": 16.517,
+      "lng": 80.5985
+    }
+  },
+  {
+    "id": "SOS-VIJ-076",
+    "timestamp": "2026-10-14T00:15:13.448Z",
+    "raw_text": "Road blocked with 2ft water in Payakapuram Shanti Nagar. Are relief vehicles allowed to pass? Inquiring for relief supply truck.",
+    "language": "en",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 106325 10075",
+    "reported_location": "Payakapuram Shanti Nagar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-payakapuram-shanti",
+    "coordinates": {
+      "lat": 16.5468,
+      "lng": 80.6398
+    }
+  },
+  {
+    "id": "SOS-VIJ-077",
+    "timestamp": "2026-10-14T00:18:13.448Z",
+    "raw_text": "అత్యవసరం: Kandrika Main Bazaar వద్ద 14 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 106436 10076",
+    "reported_location": "Kandrika Main Bazaar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-kandrika-bazaar",
+    "coordinates": {
+      "lat": 16.5557,
+      "lng": 80.6475
+    }
+  },
+  {
+    "id": "SOS-VIJ-078",
+    "timestamp": "2026-10-14T00:21:13.448Z",
+    "raw_text": "Madhuranagar Railway Gate के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Helpline 112",
+    "sender_contact": "+91 106547 10077",
+    "reported_location": "Madhuranagar Railway Gate",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-madhuranagar",
+    "coordinates": {
+      "lat": 16.521,
+      "lng": 80.6489
+    }
+  },
+  {
+    "id": "SOS-KHA-079",
+    "timestamp": "2026-10-14T00:24:13.448Z",
+    "raw_text": "URGENT MEDICAL: Elderly cardiac patient at Mothe Village Road. Water 7ft inside lane. Emergency evacuation required ASAP for 2 people.",
+    "language": "en",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 106658 10078",
+    "reported_location": "Mothe Village Road",
+    "city": "Khammam",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 2,
+    "vulnerable_tags": [
+      "Elderly",
+      "Cardiac Patient"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "MEDICAL_EMERGENCY",
+    "cluster_group_id": "cluster-kh-mothe",
+    "coordinates": {
+      "lat": 17.2615,
+      "lng": 80.1624
+    }
+  },
+  {
+    "id": "SOS-KHA-080",
+    "timestamp": "2026-10-14T00:27:13.448Z",
+    "raw_text": "అత్యవసరం: Danavaigudem Munneru Canal వద్ద 5 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Community Bot",
+    "sender_contact": "+91 106769 10079",
+    "reported_location": "Danavaigudem Munneru Canal",
+    "city": "Khammam",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-kh-danavaigudem",
+    "coordinates": {
+      "lat": 17.2377,
+      "lng": 80.1383
+    }
+  },
+  {
+    "id": "SOS-HYD-081",
+    "timestamp": "2026-10-14T00:30:13.448Z",
+    "raw_text": "Alwal Lake Inundation Ward 134 के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 106880 10080",
+    "reported_location": "Alwal Lake Inundation Ward 134",
+    "city": "Hyderabad",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-hyd-alwal-lake",
+    "coordinates": {
+      "lat": 17.499,
+      "lng": 78.5137
+    }
+  },
+  {
+    "id": "SOS-HYD-082",
+    "timestamp": "2026-10-14T00:33:13.448Z",
+    "raw_text": "Emergency in Chaderghat Causeway Musi Bridge. Building surrounded by 6ft swift currents. 11 trapped including small children. Please dispatch SDRF.",
+    "language": "en",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 106991 10081",
+    "reported_location": "Chaderghat Causeway Musi Bridge",
+    "city": "Hyderabad",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 11,
+    "vulnerable_tags": [
+      "Children",
+      "Swift Current"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-hyd-chaderghat",
+    "coordinates": {
+      "lat": 17.3761,
+      "lng": 78.4933
+    }
+  },
+  {
+    "id": "SOS-PAT-083",
+    "timestamp": "2026-10-14T00:36:13.448Z",
+    "raw_text": "అత్యవసరం: Danapur Cantt Low-Lying Mohalla వద్ద 14 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Helpline 112",
+    "sender_contact": "+91 107102 10082",
+    "reported_location": "Danapur Cantt Low-Lying Mohalla",
+    "city": "Patna",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-pat-danapur",
+    "coordinates": {
+      "lat": 25.6319,
+      "lng": 85.0448
+    }
+  },
+  {
+    "id": "SOS-CHE-084",
+    "timestamp": "2026-10-14T00:39:13.448Z",
+    "raw_text": "Pallikaranai Marshland Enclave के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 107213 10083",
+    "reported_location": "Pallikaranai Marshland Enclave",
+    "city": "Chennai",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-che-pallikaranai",
+    "coordinates": {
+      "lat": 12.9369,
+      "lng": 80.2057
+    }
+  },
+  {
+    "id": "SOS-VIJ-085",
+    "timestamp": "2026-10-14T00:42:13.448Z",
+    "raw_text": "Flooding at Ajit Singh Nagar Sector 2. Water level reaching waist depth, 2 people stranded without food/drinking water. Need rescue boat support.",
+    "language": "en",
+    "source": "Community Bot",
+    "sender_contact": "+91 107324 10084",
+    "reported_location": "Ajit Singh Nagar Sector 2",
+    "city": "Vijayawada",
+    "water_depth_estimate": "4-6 ft",
+    "people_stranded": 2,
+    "vulnerable_tags": [
+      "Food Shortage"
+    ],
+    "ground_truth_urgency": "HIGH",
+    "ground_truth_category": "FOOD_WATER",
+    "cluster_group_id": "cluster-vj-singh-nagar-sec2",
+    "coordinates": {
+      "lat": 16.5397,
+      "lng": 80.641
+    }
+  },
+  {
+    "id": "SOS-VIJ-086",
+    "timestamp": "2026-10-14T00:45:13.448Z",
+    "raw_text": "అత్యవసరం: Pipula Road, Singh Nagar వద్ద 5 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 107435 10085",
+    "reported_location": "Pipula Road, Singh Nagar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-pipula-road",
+    "coordinates": {
+      "lat": 16.5383,
+      "lng": 80.638
+    }
+  },
+  {
+    "id": "SOS-VIJ-087",
+    "timestamp": "2026-10-14T00:48:13.448Z",
+    "raw_text": "Bhavanipuram Swathi Theatre Area के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 107546 10086",
+    "reported_location": "Bhavanipuram Swathi Theatre Area",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-bhavanipuram",
+    "coordinates": {
+      "lat": 16.5172,
+      "lng": 80.5968
+    }
+  },
+  {
+    "id": "SOS-VIJ-088",
+    "timestamp": "2026-10-14T00:51:13.448Z",
+    "raw_text": "Road blocked with 2ft water in Payakapuram Shanti Nagar. Are relief vehicles allowed to pass? Inquiring for relief supply truck.",
+    "language": "en",
+    "source": "Helpline 112",
+    "sender_contact": "+91 107657 10087",
+    "reported_location": "Payakapuram Shanti Nagar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-payakapuram-shanti",
+    "coordinates": {
+      "lat": 16.5455,
+      "lng": 80.6387
+    }
+  },
+  {
+    "id": "SOS-VIJ-089",
+    "timestamp": "2026-10-14T00:54:13.448Z",
+    "raw_text": "అత్యవసరం: Kandrika Main Bazaar వద్ద 14 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 107768 10088",
+    "reported_location": "Kandrika Main Bazaar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-kandrika-bazaar",
+    "coordinates": {
+      "lat": 16.5541,
+      "lng": 80.648
+    }
+  },
+  {
+    "id": "SOS-VIJ-090",
+    "timestamp": "2026-10-14T00:57:13.448Z",
+    "raw_text": "Madhuranagar Railway Gate के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Community Bot",
+    "sender_contact": "+91 107879 10089",
+    "reported_location": "Madhuranagar Railway Gate",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-madhuranagar",
+    "coordinates": {
+      "lat": 16.5206,
+      "lng": 80.6505
+    }
+  },
+  {
+    "id": "SOS-KHA-091",
+    "timestamp": "2026-10-14T01:00:13.448Z",
+    "raw_text": "URGENT MEDICAL: Elderly cardiac patient at Mothe Village Road. Water 7ft inside lane. Emergency evacuation required ASAP for 2 people.",
+    "language": "en",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 107990 10090",
+    "reported_location": "Mothe Village Road",
+    "city": "Khammam",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 2,
+    "vulnerable_tags": [
+      "Elderly",
+      "Cardiac Patient"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "MEDICAL_EMERGENCY",
+    "cluster_group_id": "cluster-kh-mothe",
+    "coordinates": {
+      "lat": 17.2627,
+      "lng": 80.1637
+    }
+  },
+  {
+    "id": "SOS-KHA-092",
+    "timestamp": "2026-10-14T01:03:13.448Z",
+    "raw_text": "అత్యవసరం: Danavaigudem Munneru Canal వద్ద 5 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 108101 10091",
+    "reported_location": "Danavaigudem Munneru Canal",
+    "city": "Khammam",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-kh-danavaigudem",
+    "coordinates": {
+      "lat": 17.2393,
+      "lng": 80.138
+    }
+  },
+  {
+    "id": "SOS-HYD-093",
+    "timestamp": "2026-10-14T01:06:13.448Z",
+    "raw_text": "Alwal Lake Inundation Ward 134 के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Helpline 112",
+    "sender_contact": "+91 108212 10092",
+    "reported_location": "Alwal Lake Inundation Ward 134",
+    "city": "Hyderabad",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-hyd-alwal-lake",
+    "coordinates": {
+      "lat": 17.4997,
+      "lng": 78.5121
+    }
+  },
+  {
+    "id": "SOS-HYD-094",
+    "timestamp": "2026-10-14T01:09:13.448Z",
+    "raw_text": "Emergency in Chaderghat Causeway Musi Bridge. Building surrounded by 6ft swift currents. 11 trapped including small children. Please dispatch SDRF.",
+    "language": "en",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 108323 10093",
+    "reported_location": "Chaderghat Causeway Musi Bridge",
+    "city": "Hyderabad",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 11,
+    "vulnerable_tags": [
+      "Children",
+      "Swift Current"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-hyd-chaderghat",
+    "coordinates": {
+      "lat": 17.3752,
+      "lng": 78.492
+    }
+  },
+  {
+    "id": "SOS-PAT-095",
+    "timestamp": "2026-10-14T01:12:13.448Z",
+    "raw_text": "అత్యవసరం: Danapur Cantt Low-Lying Mohalla వద్ద 14 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Community Bot",
+    "sender_contact": "+91 108434 10094",
+    "reported_location": "Danapur Cantt Low-Lying Mohalla",
+    "city": "Patna",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-pat-danapur",
+    "coordinates": {
+      "lat": 25.6303,
+      "lng": 85.0449
+    }
+  },
+  {
+    "id": "SOS-CHE-096",
+    "timestamp": "2026-10-14T01:15:13.448Z",
+    "raw_text": "Pallikaranai Marshland Enclave के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 108545 10095",
+    "reported_location": "Pallikaranai Marshland Enclave",
+    "city": "Chennai",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-che-pallikaranai",
+    "coordinates": {
+      "lat": 12.936,
+      "lng": 80.2072
+    }
+  },
+  {
+    "id": "SOS-VIJ-097",
+    "timestamp": "2026-10-14T01:18:13.448Z",
+    "raw_text": "Flooding at Ajit Singh Nagar Sector 2. Water level reaching waist depth, 2 people stranded without food/drinking water. Need rescue boat support.",
+    "language": "en",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 108656 10096",
+    "reported_location": "Ajit Singh Nagar Sector 2",
+    "city": "Vijayawada",
+    "water_depth_estimate": "4-6 ft",
+    "people_stranded": 2,
+    "vulnerable_tags": [
+      "Food Shortage"
+    ],
+    "ground_truth_urgency": "HIGH",
+    "ground_truth_category": "FOOD_WATER",
+    "cluster_group_id": "cluster-vj-singh-nagar-sec2",
+    "coordinates": {
+      "lat": 16.5405,
+      "lng": 80.6425
+    }
+  },
+  {
+    "id": "SOS-VIJ-098",
+    "timestamp": "2026-10-14T01:21:13.448Z",
+    "raw_text": "అత్యవసరం: Pipula Road, Singh Nagar వద్ద 5 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Helpline 112",
+    "sender_contact": "+91 108767 10097",
+    "reported_location": "Pipula Road, Singh Nagar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-pipula-road",
+    "coordinates": {
+      "lat": 16.5399,
+      "lng": 80.6382
+    }
+  },
+  {
+    "id": "SOS-VIJ-099",
+    "timestamp": "2026-10-14T01:24:13.448Z",
+    "raw_text": "Bhavanipuram Swathi Theatre Area के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 108878 10098",
+    "reported_location": "Bhavanipuram Swathi Theatre Area",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-bhavanipuram",
+    "coordinates": {
+      "lat": 16.5183,
+      "lng": 80.5955
+    }
+  },
+  {
+    "id": "SOS-VIJ-100",
+    "timestamp": "2026-10-14T01:27:13.448Z",
+    "raw_text": "Road blocked with 2ft water in Payakapuram Shanti Nagar. Are relief vehicles allowed to pass? Inquiring for relief supply truck.",
+    "language": "en",
+    "source": "Community Bot",
+    "sender_contact": "+91 108989 10099",
+    "reported_location": "Payakapuram Shanti Nagar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-payakapuram-shanti",
+    "coordinates": {
+      "lat": 16.545,
+      "lng": 80.6371
+    }
+  },
+  {
+    "id": "SOS-VIJ-101",
+    "timestamp": "2026-10-14T01:30:13.448Z",
+    "raw_text": "అత్యవసరం: Kandrika Main Bazaar వద్ద 14 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 109100 10100",
+    "reported_location": "Kandrika Main Bazaar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-kandrika-bazaar",
+    "coordinates": {
+      "lat": 16.5525,
+      "lng": 80.6476
+    }
+  },
+  {
+    "id": "SOS-VIJ-102",
+    "timestamp": "2026-10-14T01:33:13.448Z",
+    "raw_text": "Madhuranagar Railway Gate के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 109211 10101",
+    "reported_location": "Madhuranagar Railway Gate",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-madhuranagar",
+    "coordinates": {
+      "lat": 16.5194,
+      "lng": 80.6517
+    }
+  },
+  {
+    "id": "SOS-KHA-103",
+    "timestamp": "2026-10-14T01:36:13.448Z",
+    "raw_text": "URGENT MEDICAL: Elderly cardiac patient at Mothe Village Road. Water 7ft inside lane. Emergency evacuation required ASAP for 2 people.",
+    "language": "en",
+    "source": "Helpline 112",
+    "sender_contact": "+91 109322 10102",
+    "reported_location": "Mothe Village Road",
+    "city": "Khammam",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 2,
+    "vulnerable_tags": [
+      "Elderly",
+      "Cardiac Patient"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "MEDICAL_EMERGENCY",
+    "cluster_group_id": "cluster-kh-mothe",
+    "coordinates": {
+      "lat": 17.263,
+      "lng": 80.1653
+    }
+  },
+  {
+    "id": "SOS-KHA-104",
+    "timestamp": "2026-10-14T01:39:13.448Z",
+    "raw_text": "అత్యవసరం: Danavaigudem Munneru Canal వద్ద 5 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 109433 10103",
+    "reported_location": "Danavaigudem Munneru Canal",
+    "city": "Khammam",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-kh-danavaigudem",
+    "coordinates": {
+      "lat": 17.2409,
+      "lng": 80.1387
+    }
+  },
+  {
+    "id": "SOS-HYD-105",
+    "timestamp": "2026-10-14T01:42:13.448Z",
+    "raw_text": "Alwal Lake Inundation Ward 134 के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Community Bot",
+    "sender_contact": "+91 109544 10104",
+    "reported_location": "Alwal Lake Inundation Ward 134",
+    "city": "Hyderabad",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-hyd-alwal-lake",
+    "coordinates": {
+      "lat": 17.501,
+      "lng": 78.5112
+    }
+  },
+  {
+    "id": "SOS-HYD-106",
+    "timestamp": "2026-10-14T01:45:13.448Z",
+    "raw_text": "Emergency in Chaderghat Causeway Musi Bridge. Building surrounded by 6ft swift currents. 11 trapped including small children. Please dispatch SDRF.",
+    "language": "en",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 109655 10105",
+    "reported_location": "Chaderghat Causeway Musi Bridge",
+    "city": "Hyderabad",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 11,
+    "vulnerable_tags": [
+      "Children",
+      "Swift Current"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-hyd-chaderghat",
+    "coordinates": {
+      "lat": 17.3751,
+      "lng": 78.4903
+    }
+  },
+  {
+    "id": "SOS-PAT-107",
+    "timestamp": "2026-10-14T01:48:13.448Z",
+    "raw_text": "అత్యవసరం: Danapur Cantt Low-Lying Mohalla వద్ద 14 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 109766 10106",
+    "reported_location": "Danapur Cantt Low-Lying Mohalla",
+    "city": "Patna",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-pat-danapur",
+    "coordinates": {
+      "lat": 25.6288,
+      "lng": 85.0441
+    }
+  },
+  {
+    "id": "SOS-CHE-108",
+    "timestamp": "2026-10-14T01:51:13.448Z",
+    "raw_text": "Pallikaranai Marshland Enclave के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Helpline 112",
+    "sender_contact": "+91 109877 10107",
+    "reported_location": "Pallikaranai Marshland Enclave",
+    "city": "Chennai",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-che-pallikaranai",
+    "coordinates": {
+      "lat": 12.9346,
+      "lng": 80.2079
+    }
+  },
+  {
+    "id": "SOS-VIJ-109",
+    "timestamp": "2026-10-14T01:54:13.448Z",
+    "raw_text": "Flooding at Ajit Singh Nagar Sector 2. Water level reaching waist depth, 2 people stranded without food/drinking water. Need rescue boat support.",
+    "language": "en",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 109988 10108",
+    "reported_location": "Ajit Singh Nagar Sector 2",
+    "city": "Vijayawada",
+    "water_depth_estimate": "4-6 ft",
+    "people_stranded": 2,
+    "vulnerable_tags": [
+      "Food Shortage"
+    ],
+    "ground_truth_urgency": "HIGH",
+    "ground_truth_category": "FOOD_WATER",
+    "cluster_group_id": "cluster-vj-singh-nagar-sec2",
+    "coordinates": {
+      "lat": 16.5403,
+      "lng": 80.6441
+    }
+  },
+  {
+    "id": "SOS-VIJ-110",
+    "timestamp": "2026-10-14T01:57:13.448Z",
+    "raw_text": "అత్యవసరం: Pipula Road, Singh Nagar వద్ద 5 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Community Bot",
+    "sender_contact": "+91 110099 10109",
+    "reported_location": "Pipula Road, Singh Nagar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-pipula-road",
+    "coordinates": {
+      "lat": 16.5413,
+      "lng": 80.6393
+    }
+  },
+  {
+    "id": "SOS-VIJ-111",
+    "timestamp": "2026-10-14T02:00:13.448Z",
+    "raw_text": "Bhavanipuram Swathi Theatre Area के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 110210 10110",
+    "reported_location": "Bhavanipuram Swathi Theatre Area",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-bhavanipuram",
+    "coordinates": {
+      "lat": 16.5199,
+      "lng": 80.595
+    }
+  },
+  {
+    "id": "SOS-VIJ-112",
+    "timestamp": "2026-10-14T02:03:13.448Z",
+    "raw_text": "Road blocked with 2ft water in Payakapuram Shanti Nagar. Are relief vehicles allowed to pass? Inquiring for relief supply truck.",
+    "language": "en",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 110321 10111",
+    "reported_location": "Payakapuram Shanti Nagar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-payakapuram-shanti",
+    "coordinates": {
+      "lat": 16.5454,
+      "lng": 80.6355
+    }
+  },
+  {
+    "id": "SOS-VIJ-113",
+    "timestamp": "2026-10-14T02:06:13.448Z",
+    "raw_text": "అత్యవసరం: Kandrika Main Bazaar వద్ద 14 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Helpline 112",
+    "sender_contact": "+91 110432 10112",
+    "reported_location": "Kandrika Main Bazaar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-kandrika-bazaar",
+    "coordinates": {
+      "lat": 16.5513,
+      "lng": 80.6464
+    }
+  },
+  {
+    "id": "SOS-VIJ-114",
+    "timestamp": "2026-10-14T02:09:13.448Z",
+    "raw_text": "Madhuranagar Railway Gate के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 110543 10113",
+    "reported_location": "Madhuranagar Railway Gate",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-madhuranagar",
+    "coordinates": {
+      "lat": 16.5177,
+      "lng": 80.652
+    }
+  },
+  {
+    "id": "SOS-KHA-115",
+    "timestamp": "2026-10-14T02:12:13.448Z",
+    "raw_text": "URGENT MEDICAL: Elderly cardiac patient at Mothe Village Road. Water 7ft inside lane. Emergency evacuation required ASAP for 2 people.",
+    "language": "en",
+    "source": "Community Bot",
+    "sender_contact": "+91 110654 10114",
+    "reported_location": "Mothe Village Road",
+    "city": "Khammam",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 2,
+    "vulnerable_tags": [
+      "Elderly",
+      "Cardiac Patient"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "MEDICAL_EMERGENCY",
+    "cluster_group_id": "cluster-kh-mothe",
+    "coordinates": {
+      "lat": 17.2624,
+      "lng": 80.1669
+    }
+  },
+  {
+    "id": "SOS-KHA-116",
+    "timestamp": "2026-10-14T02:15:13.449Z",
+    "raw_text": "అత్యవసరం: Danavaigudem Munneru Canal వద్ద 5 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 110765 10115",
+    "reported_location": "Danavaigudem Munneru Canal",
+    "city": "Khammam",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-kh-danavaigudem",
+    "coordinates": {
+      "lat": 17.2418,
+      "lng": 80.14
+    }
+  },
+  {
+    "id": "SOS-HYD-117",
+    "timestamp": "2026-10-14T02:18:13.449Z",
+    "raw_text": "Alwal Lake Inundation Ward 134 के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 110876 10116",
+    "reported_location": "Alwal Lake Inundation Ward 134",
+    "city": "Hyderabad",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-hyd-alwal-lake",
+    "coordinates": {
+      "lat": 17.5027,
+      "lng": 78.5111
+    }
+  },
+  {
+    "id": "SOS-HYD-118",
+    "timestamp": "2026-10-14T02:21:13.449Z",
+    "raw_text": "Emergency in Chaderghat Causeway Musi Bridge. Building surrounded by 6ft swift currents. 11 trapped including small children. Please dispatch SDRF.",
+    "language": "en",
+    "source": "Helpline 112",
+    "sender_contact": "+91 110987 10117",
+    "reported_location": "Chaderghat Causeway Musi Bridge",
+    "city": "Hyderabad",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 11,
+    "vulnerable_tags": [
+      "Children",
+      "Swift Current"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-hyd-chaderghat",
+    "coordinates": {
+      "lat": 17.3759,
+      "lng": 78.4888
+    }
+  },
+  {
+    "id": "SOS-PAT-119",
+    "timestamp": "2026-10-14T02:24:13.449Z",
+    "raw_text": "అత్యవసరం: Danapur Cantt Low-Lying Mohalla వద్ద 14 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 111098 10118",
+    "reported_location": "Danapur Cantt Low-Lying Mohalla",
+    "city": "Patna",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-pat-danapur",
+    "coordinates": {
+      "lat": 25.6281,
+      "lng": 85.0426
+    }
+  },
+  {
+    "id": "SOS-CHE-120",
+    "timestamp": "2026-10-14T02:27:13.449Z",
+    "raw_text": "Pallikaranai Marshland Enclave के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Community Bot",
+    "sender_contact": "+91 111209 10119",
+    "reported_location": "Pallikaranai Marshland Enclave",
+    "city": "Chennai",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-che-pallikaranai",
+    "coordinates": {
+      "lat": 12.9329,
+      "lng": 80.2078
+    }
+  },
+  {
+    "id": "SOS-VIJ-121",
+    "timestamp": "2026-10-14T02:30:13.449Z",
+    "raw_text": "Flooding at Ajit Singh Nagar Sector 2. Water level reaching waist depth, 2 people stranded without food/drinking water. Need rescue boat support.",
+    "language": "en",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 111320 10120",
+    "reported_location": "Ajit Singh Nagar Sector 2",
+    "city": "Vijayawada",
+    "water_depth_estimate": "4-6 ft",
+    "people_stranded": 2,
+    "vulnerable_tags": [
+      "Food Shortage"
+    ],
+    "ground_truth_urgency": "HIGH",
+    "ground_truth_category": "FOOD_WATER",
+    "cluster_group_id": "cluster-vj-singh-nagar-sec2",
+    "coordinates": {
+      "lat": 16.5392,
+      "lng": 80.6454
+    }
+  },
+  {
+    "id": "SOS-VIJ-122",
+    "timestamp": "2026-10-14T02:33:13.449Z",
+    "raw_text": "అత్యవసరం: Pipula Road, Singh Nagar వద్ద 5 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 111431 10121",
+    "reported_location": "Pipula Road, Singh Nagar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-pipula-road",
+    "coordinates": {
+      "lat": 16.5418,
+      "lng": 80.6409
+    }
+  },
+  {
+    "id": "SOS-VIJ-123",
+    "timestamp": "2026-10-14T02:36:13.449Z",
+    "raw_text": "Bhavanipuram Swathi Theatre Area के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Helpline 112",
+    "sender_contact": "+91 111542 10122",
+    "reported_location": "Bhavanipuram Swathi Theatre Area",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-bhavanipuram",
+    "coordinates": {
+      "lat": 16.5215,
+      "lng": 80.5954
+    }
+  },
+  {
+    "id": "SOS-VIJ-124",
+    "timestamp": "2026-10-14T02:39:13.449Z",
+    "raw_text": "Road blocked with 2ft water in Payakapuram Shanti Nagar. Are relief vehicles allowed to pass? Inquiring for relief supply truck.",
+    "language": "en",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 111653 10123",
+    "reported_location": "Payakapuram Shanti Nagar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-payakapuram-shanti",
+    "coordinates": {
+      "lat": 16.5466,
+      "lng": 80.6343
+    }
+  },
+  {
+    "id": "SOS-VIJ-125",
+    "timestamp": "2026-10-14T02:42:13.449Z",
+    "raw_text": "అత్యవసరం: Kandrika Main Bazaar వద్ద 14 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Community Bot",
+    "sender_contact": "+91 111764 10124",
+    "reported_location": "Kandrika Main Bazaar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-kandrika-bazaar",
+    "coordinates": {
+      "lat": 16.551,
+      "lng": 80.6447
+    }
+  },
+  {
+    "id": "SOS-VIJ-126",
+    "timestamp": "2026-10-14T02:45:13.449Z",
+    "raw_text": "Madhuranagar Railway Gate के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 111875 10125",
+    "reported_location": "Madhuranagar Railway Gate",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-madhuranagar",
+    "coordinates": {
+      "lat": 16.5162,
+      "lng": 80.6514
+    }
+  },
+  {
+    "id": "SOS-KHA-127",
+    "timestamp": "2026-10-14T02:48:13.449Z",
+    "raw_text": "URGENT MEDICAL: Elderly cardiac patient at Mothe Village Road. Water 7ft inside lane. Emergency evacuation required ASAP for 2 people.",
+    "language": "en",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 111986 10126",
+    "reported_location": "Mothe Village Road",
+    "city": "Khammam",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 2,
+    "vulnerable_tags": [
+      "Elderly",
+      "Cardiac Patient"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "MEDICAL_EMERGENCY",
+    "cluster_group_id": "cluster-kh-mothe",
+    "coordinates": {
+      "lat": 17.261,
+      "lng": 80.1678
+    }
+  },
+  {
+    "id": "SOS-KHA-128",
+    "timestamp": "2026-10-14T02:51:13.449Z",
+    "raw_text": "అత్యవసరం: Danavaigudem Munneru Canal వద్ద 5 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Helpline 112",
+    "sender_contact": "+91 112097 10127",
+    "reported_location": "Danavaigudem Munneru Canal",
+    "city": "Khammam",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-kh-danavaigudem",
+    "coordinates": {
+      "lat": 17.2419,
+      "lng": 80.1417
+    }
+  },
+  {
+    "id": "SOS-HYD-129",
+    "timestamp": "2026-10-14T02:54:13.449Z",
+    "raw_text": "Alwal Lake Inundation Ward 134 के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 112208 10128",
+    "reported_location": "Alwal Lake Inundation Ward 134",
+    "city": "Hyderabad",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-hyd-alwal-lake",
+    "coordinates": {
+      "lat": 17.5042,
+      "lng": 78.5119
+    }
+  },
+  {
+    "id": "SOS-HYD-130",
+    "timestamp": "2026-10-14T02:57:13.449Z",
+    "raw_text": "Emergency in Chaderghat Causeway Musi Bridge. Building surrounded by 6ft swift currents. 11 trapped including small children. Please dispatch SDRF.",
+    "language": "en",
+    "source": "Community Bot",
+    "sender_contact": "+91 112319 10129",
+    "reported_location": "Chaderghat Causeway Musi Bridge",
+    "city": "Hyderabad",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 11,
+    "vulnerable_tags": [
+      "Children",
+      "Swift Current"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-hyd-chaderghat",
+    "coordinates": {
+      "lat": 17.3774,
+      "lng": 78.4881
+    }
+  },
+  {
+    "id": "SOS-PAT-131",
+    "timestamp": "2026-10-14T03:00:13.449Z",
+    "raw_text": "అత్యవసరం: Danapur Cantt Low-Lying Mohalla వద్ద 14 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 112430 10130",
+    "reported_location": "Danapur Cantt Low-Lying Mohalla",
+    "city": "Patna",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-pat-danapur",
+    "coordinates": {
+      "lat": 25.6282,
+      "lng": 85.0409
+    }
+  },
+  {
+    "id": "SOS-CHE-132",
+    "timestamp": "2026-10-14T03:03:13.449Z",
+    "raw_text": "Pallikaranai Marshland Enclave के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 112541 10131",
+    "reported_location": "Pallikaranai Marshland Enclave",
+    "city": "Chennai",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-che-pallikaranai",
+    "coordinates": {
+      "lat": 12.9316,
+      "lng": 80.2068
+    }
+  },
+  {
+    "id": "SOS-VIJ-133",
+    "timestamp": "2026-10-14T03:06:13.449Z",
+    "raw_text": "Flooding at Ajit Singh Nagar Sector 2. Water level reaching waist depth, 2 people stranded without food/drinking water. Need rescue boat support.",
+    "language": "en",
+    "source": "Helpline 112",
+    "sender_contact": "+91 112652 10132",
+    "reported_location": "Ajit Singh Nagar Sector 2",
+    "city": "Vijayawada",
+    "water_depth_estimate": "4-6 ft",
+    "people_stranded": 2,
+    "vulnerable_tags": [
+      "Food Shortage"
+    ],
+    "ground_truth_urgency": "HIGH",
+    "ground_truth_category": "FOOD_WATER",
+    "cluster_group_id": "cluster-vj-singh-nagar-sec2",
+    "coordinates": {
+      "lat": 16.5377,
+      "lng": 80.646
+    }
+  },
+  {
+    "id": "SOS-VIJ-134",
+    "timestamp": "2026-10-14T03:09:13.449Z",
+    "raw_text": "అత్యవసరం: Pipula Road, Singh Nagar వద్ద 5 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 112763 10133",
+    "reported_location": "Pipula Road, Singh Nagar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-pipula-road",
+    "coordinates": {
+      "lat": 16.5414,
+      "lng": 80.6425
+    }
+  },
+  {
+    "id": "SOS-VIJ-135",
+    "timestamp": "2026-10-14T03:12:13.449Z",
+    "raw_text": "Bhavanipuram Swathi Theatre Area के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Community Bot",
+    "sender_contact": "+91 112874 10134",
+    "reported_location": "Bhavanipuram Swathi Theatre Area",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-bhavanipuram",
+    "coordinates": {
+      "lat": 16.5227,
+      "lng": 80.5966
+    }
+  },
+  {
+    "id": "SOS-VIJ-136",
+    "timestamp": "2026-10-14T03:15:13.449Z",
+    "raw_text": "Road blocked with 2ft water in Payakapuram Shanti Nagar. Are relief vehicles allowed to pass? Inquiring for relief supply truck.",
+    "language": "en",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 112985 10135",
+    "reported_location": "Payakapuram Shanti Nagar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-payakapuram-shanti",
+    "coordinates": {
+      "lat": 16.5483,
+      "lng": 80.634
+    }
+  },
+  {
+    "id": "SOS-VIJ-137",
+    "timestamp": "2026-10-14T03:18:13.449Z",
+    "raw_text": "అత్యవసరం: Kandrika Main Bazaar వద్ద 14 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 113096 10136",
+    "reported_location": "Kandrika Main Bazaar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-kandrika-bazaar",
+    "coordinates": {
+      "lat": 16.5516,
+      "lng": 80.6432
+    }
+  },
+  {
+    "id": "SOS-VIJ-138",
+    "timestamp": "2026-10-14T03:21:13.449Z",
+    "raw_text": "Madhuranagar Railway Gate के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Helpline 112",
+    "sender_contact": "+91 113207 10137",
+    "reported_location": "Madhuranagar Railway Gate",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-madhuranagar",
+    "coordinates": {
+      "lat": 16.5152,
+      "lng": 80.65
+    }
+  },
+  {
+    "id": "SOS-KHA-139",
+    "timestamp": "2026-10-14T03:24:13.449Z",
+    "raw_text": "URGENT MEDICAL: Elderly cardiac patient at Mothe Village Road. Water 7ft inside lane. Emergency evacuation required ASAP for 2 people.",
+    "language": "en",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 113318 10138",
+    "reported_location": "Mothe Village Road",
+    "city": "Khammam",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 2,
+    "vulnerable_tags": [
+      "Elderly",
+      "Cardiac Patient"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "MEDICAL_EMERGENCY",
+    "cluster_group_id": "cluster-kh-mothe",
+    "coordinates": {
+      "lat": 17.2593,
+      "lng": 80.1679
+    }
+  },
+  {
+    "id": "SOS-KHA-140",
+    "timestamp": "2026-10-14T03:27:13.449Z",
+    "raw_text": "అత్యవసరం: Danavaigudem Munneru Canal వద్ద 5 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Community Bot",
+    "sender_contact": "+91 113429 10139",
+    "reported_location": "Danavaigudem Munneru Canal",
+    "city": "Khammam",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-kh-danavaigudem",
+    "coordinates": {
+      "lat": 17.2411,
+      "lng": 80.1432
+    }
+  },
+  {
+    "id": "SOS-HYD-141",
+    "timestamp": "2026-10-14T03:30:13.449Z",
+    "raw_text": "Alwal Lake Inundation Ward 134 के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 113540 10140",
+    "reported_location": "Alwal Lake Inundation Ward 134",
+    "city": "Hyderabad",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-hyd-alwal-lake",
+    "coordinates": {
+      "lat": 17.5049,
+      "lng": 78.5134
+    }
+  },
+  {
+    "id": "SOS-HYD-142",
+    "timestamp": "2026-10-14T03:33:13.449Z",
+    "raw_text": "Emergency in Chaderghat Causeway Musi Bridge. Building surrounded by 6ft swift currents. 11 trapped including small children. Please dispatch SDRF.",
+    "language": "en",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 113651 10141",
+    "reported_location": "Chaderghat Causeway Musi Bridge",
+    "city": "Hyderabad",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 11,
+    "vulnerable_tags": [
+      "Children",
+      "Swift Current"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-hyd-chaderghat",
+    "coordinates": {
+      "lat": 17.3791,
+      "lng": 78.4882
+    }
+  },
+  {
+    "id": "SOS-PAT-143",
+    "timestamp": "2026-10-14T03:36:13.449Z",
+    "raw_text": "అత్యవసరం: Danapur Cantt Low-Lying Mohalla వద్ద 14 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Helpline 112",
+    "sender_contact": "+91 113762 10142",
+    "reported_location": "Danapur Cantt Low-Lying Mohalla",
+    "city": "Patna",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-pat-danapur",
+    "coordinates": {
+      "lat": 25.6292,
+      "lng": 85.0396
+    }
+  },
+  {
+    "id": "SOS-CHE-144",
+    "timestamp": "2026-10-14T03:39:13.449Z",
+    "raw_text": "Pallikaranai Marshland Enclave के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 113873 10143",
+    "reported_location": "Pallikaranai Marshland Enclave",
+    "city": "Chennai",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-che-pallikaranai",
+    "coordinates": {
+      "lat": 12.931,
+      "lng": 80.2052
+    }
+  },
+  {
+    "id": "SOS-VIJ-145",
+    "timestamp": "2026-10-14T03:42:13.449Z",
+    "raw_text": "Flooding at Ajit Singh Nagar Sector 2. Water level reaching waist depth, 2 people stranded without food/drinking water. Need rescue boat support.",
+    "language": "en",
+    "source": "Community Bot",
+    "sender_contact": "+91 113984 10144",
+    "reported_location": "Ajit Singh Nagar Sector 2",
+    "city": "Vijayawada",
+    "water_depth_estimate": "4-6 ft",
+    "people_stranded": 2,
+    "vulnerable_tags": [
+      "Food Shortage"
+    ],
+    "ground_truth_urgency": "HIGH",
+    "ground_truth_category": "FOOD_WATER",
+    "cluster_group_id": "cluster-vj-singh-nagar-sec2",
+    "coordinates": {
+      "lat": 16.536,
+      "lng": 80.6456
+    }
+  },
+  {
+    "id": "SOS-VIJ-146",
+    "timestamp": "2026-10-14T03:45:13.449Z",
+    "raw_text": "అత్యవసరం: Pipula Road, Singh Nagar వద్ద 5 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 114095 10145",
+    "reported_location": "Pipula Road, Singh Nagar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-pipula-road",
+    "coordinates": {
+      "lat": 16.5402,
+      "lng": 80.6437
+    }
+  },
+  {
+    "id": "SOS-VIJ-147",
+    "timestamp": "2026-10-14T03:48:13.449Z",
+    "raw_text": "Bhavanipuram Swathi Theatre Area के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 114206 10146",
+    "reported_location": "Bhavanipuram Swathi Theatre Area",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-bhavanipuram",
+    "coordinates": {
+      "lat": 16.523,
+      "lng": 80.5983
+    }
+  },
+  {
+    "id": "SOS-VIJ-148",
+    "timestamp": "2026-10-14T03:51:13.449Z",
+    "raw_text": "Road blocked with 2ft water in Payakapuram Shanti Nagar. Are relief vehicles allowed to pass? Inquiring for relief supply truck.",
+    "language": "en",
+    "source": "Helpline 112",
+    "sender_contact": "+91 114317 10147",
+    "reported_location": "Payakapuram Shanti Nagar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-payakapuram-shanti",
+    "coordinates": {
+      "lat": 16.5498,
+      "lng": 80.6346
+    }
+  },
+  {
+    "id": "SOS-VIJ-149",
+    "timestamp": "2026-10-14T03:54:13.449Z",
+    "raw_text": "అత్యవసరం: Kandrika Main Bazaar వద్ద 14 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 114428 10148",
+    "reported_location": "Kandrika Main Bazaar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-kandrika-bazaar",
+    "coordinates": {
+      "lat": 16.553,
+      "lng": 80.6422
+    }
+  },
+  {
+    "id": "SOS-VIJ-150",
+    "timestamp": "2026-10-14T03:57:13.449Z",
+    "raw_text": "Madhuranagar Railway Gate के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Community Bot",
+    "sender_contact": "+91 114539 10149",
+    "reported_location": "Madhuranagar Railway Gate",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-madhuranagar",
+    "coordinates": {
+      "lat": 16.5151,
+      "lng": 80.6483
+    }
+  },
+  {
+    "id": "SOS-KHA-151",
+    "timestamp": "2026-10-14T04:00:13.449Z",
+    "raw_text": "URGENT MEDICAL: Elderly cardiac patient at Mothe Village Road. Water 7ft inside lane. Emergency evacuation required ASAP for 2 people.",
+    "language": "en",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 114650 10150",
+    "reported_location": "Mothe Village Road",
+    "city": "Khammam",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 2,
+    "vulnerable_tags": [
+      "Elderly",
+      "Cardiac Patient"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "MEDICAL_EMERGENCY",
+    "cluster_group_id": "cluster-kh-mothe",
+    "coordinates": {
+      "lat": 17.2579,
+      "lng": 80.1671
+    }
+  },
+  {
+    "id": "SOS-KHA-152",
+    "timestamp": "2026-10-14T04:03:13.449Z",
+    "raw_text": "అత్యవసరం: Danavaigudem Munneru Canal వద్ద 5 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 114761 10151",
+    "reported_location": "Danavaigudem Munneru Canal",
+    "city": "Khammam",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-kh-danavaigudem",
+    "coordinates": {
+      "lat": 17.2396,
+      "lng": 80.1439
+    }
+  },
+  {
+    "id": "SOS-HYD-153",
+    "timestamp": "2026-10-14T04:06:13.449Z",
+    "raw_text": "Alwal Lake Inundation Ward 134 के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Helpline 112",
+    "sender_contact": "+91 114872 10152",
+    "reported_location": "Alwal Lake Inundation Ward 134",
+    "city": "Hyderabad",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-hyd-alwal-lake",
+    "coordinates": {
+      "lat": 17.5048,
+      "lng": 78.5151
+    }
+  },
+  {
+    "id": "SOS-HYD-154",
+    "timestamp": "2026-10-14T04:09:13.449Z",
+    "raw_text": "Emergency in Chaderghat Causeway Musi Bridge. Building surrounded by 6ft swift currents. 11 trapped including small children. Please dispatch SDRF.",
+    "language": "en",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 114983 10153",
+    "reported_location": "Chaderghat Causeway Musi Bridge",
+    "city": "Hyderabad",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 11,
+    "vulnerable_tags": [
+      "Children",
+      "Swift Current"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-hyd-chaderghat",
+    "coordinates": {
+      "lat": 17.3804,
+      "lng": 78.4892
+    }
+  },
+  {
+    "id": "SOS-PAT-155",
+    "timestamp": "2026-10-14T04:12:13.449Z",
+    "raw_text": "అత్యవసరం: Danapur Cantt Low-Lying Mohalla వద్ద 14 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Community Bot",
+    "sender_contact": "+91 115094 10154",
+    "reported_location": "Danapur Cantt Low-Lying Mohalla",
+    "city": "Patna",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-pat-danapur",
+    "coordinates": {
+      "lat": 25.6308,
+      "lng": 85.039
+    }
+  },
+  {
+    "id": "SOS-CHE-156",
+    "timestamp": "2026-10-14T04:15:13.449Z",
+    "raw_text": "Pallikaranai Marshland Enclave के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 115205 10155",
+    "reported_location": "Pallikaranai Marshland Enclave",
+    "city": "Chennai",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-che-pallikaranai",
+    "coordinates": {
+      "lat": 12.9314,
+      "lng": 80.2035
+    }
+  },
+  {
+    "id": "SOS-VIJ-157",
+    "timestamp": "2026-10-14T04:18:13.449Z",
+    "raw_text": "Flooding at Ajit Singh Nagar Sector 2. Water level reaching waist depth, 2 people stranded without food/drinking water. Need rescue boat support.",
+    "language": "en",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 115316 10156",
+    "reported_location": "Ajit Singh Nagar Sector 2",
+    "city": "Vijayawada",
+    "water_depth_estimate": "4-6 ft",
+    "people_stranded": 2,
+    "vulnerable_tags": [
+      "Food Shortage"
+    ],
+    "ground_truth_urgency": "HIGH",
+    "ground_truth_category": "FOOD_WATER",
+    "cluster_group_id": "cluster-vj-singh-nagar-sec2",
+    "coordinates": {
+      "lat": 16.5349,
+      "lng": 80.6444
+    }
+  },
+  {
+    "id": "SOS-VIJ-158",
+    "timestamp": "2026-10-14T04:21:13.449Z",
+    "raw_text": "అత్యవసరం: Pipula Road, Singh Nagar వద్ద 5 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Helpline 112",
+    "sender_contact": "+91 115427 10157",
+    "reported_location": "Pipula Road, Singh Nagar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-pipula-road",
+    "coordinates": {
+      "lat": 16.5386,
+      "lng": 80.644
+    }
+  },
+  {
+    "id": "SOS-VIJ-159",
+    "timestamp": "2026-10-14T04:24:13.449Z",
+    "raw_text": "Bhavanipuram Swathi Theatre Area के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 115538 10158",
+    "reported_location": "Bhavanipuram Swathi Theatre Area",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-bhavanipuram",
+    "coordinates": {
+      "lat": 16.5224,
+      "lng": 80.5998
+    }
+  },
+  {
+    "id": "SOS-VIJ-160",
+    "timestamp": "2026-10-14T04:27:13.449Z",
+    "raw_text": "Road blocked with 2ft water in Payakapuram Shanti Nagar. Are relief vehicles allowed to pass? Inquiring for relief supply truck.",
+    "language": "en",
+    "source": "Community Bot",
+    "sender_contact": "+91 115649 10159",
+    "reported_location": "Payakapuram Shanti Nagar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-payakapuram-shanti",
+    "coordinates": {
+      "lat": 16.5508,
+      "lng": 80.636
+    }
+  },
+  {
+    "id": "SOS-VIJ-161",
+    "timestamp": "2026-10-14T04:30:13.449Z",
+    "raw_text": "అత్యవసరం: Kandrika Main Bazaar వద్ద 14 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 115760 10160",
+    "reported_location": "Kandrika Main Bazaar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-kandrika-bazaar",
+    "coordinates": {
+      "lat": 16.5547,
+      "lng": 80.6421
+    }
+  },
+  {
+    "id": "SOS-VIJ-162",
+    "timestamp": "2026-10-14T04:33:13.449Z",
+    "raw_text": "Madhuranagar Railway Gate के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 115871 10161",
+    "reported_location": "Madhuranagar Railway Gate",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-madhuranagar",
+    "coordinates": {
+      "lat": 16.5159,
+      "lng": 80.6469
+    }
+  },
+  {
+    "id": "SOS-KHA-163",
+    "timestamp": "2026-10-14T04:36:13.449Z",
+    "raw_text": "URGENT MEDICAL: Elderly cardiac patient at Mothe Village Road. Water 7ft inside lane. Emergency evacuation required ASAP for 2 people.",
+    "language": "en",
+    "source": "Helpline 112",
+    "sender_contact": "+91 115982 10162",
+    "reported_location": "Mothe Village Road",
+    "city": "Khammam",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 2,
+    "vulnerable_tags": [
+      "Elderly",
+      "Cardiac Patient"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "MEDICAL_EMERGENCY",
+    "cluster_group_id": "cluster-kh-mothe",
+    "coordinates": {
+      "lat": 17.2571,
+      "lng": 80.1656
+    }
+  },
+  {
+    "id": "SOS-KHA-164",
+    "timestamp": "2026-10-14T04:39:13.449Z",
+    "raw_text": "అత్యవసరం: Danavaigudem Munneru Canal వద్ద 5 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 116093 10163",
+    "reported_location": "Danavaigudem Munneru Canal",
+    "city": "Khammam",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-kh-danavaigudem",
+    "coordinates": {
+      "lat": 17.2379,
+      "lng": 80.1438
+    }
+  },
+  {
+    "id": "SOS-HYD-165",
+    "timestamp": "2026-10-14T04:42:13.449Z",
+    "raw_text": "Alwal Lake Inundation Ward 134 के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Community Bot",
+    "sender_contact": "+91 116204 10164",
+    "reported_location": "Alwal Lake Inundation Ward 134",
+    "city": "Hyderabad",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-hyd-alwal-lake",
+    "coordinates": {
+      "lat": 17.5038,
+      "lng": 78.5164
+    }
+  },
+  {
+    "id": "SOS-HYD-166",
+    "timestamp": "2026-10-14T04:45:13.449Z",
+    "raw_text": "Emergency in Chaderghat Causeway Musi Bridge. Building surrounded by 6ft swift currents. 11 trapped including small children. Please dispatch SDRF.",
+    "language": "en",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 116315 10165",
+    "reported_location": "Chaderghat Causeway Musi Bridge",
+    "city": "Hyderabad",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 11,
+    "vulnerable_tags": [
+      "Children",
+      "Swift Current"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-hyd-chaderghat",
+    "coordinates": {
+      "lat": 17.381,
+      "lng": 78.4908
+    }
+  },
+  {
+    "id": "SOS-PAT-167",
+    "timestamp": "2026-10-14T04:48:13.449Z",
+    "raw_text": "అత్యవసరం: Danapur Cantt Low-Lying Mohalla వద్ద 14 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 116426 10166",
+    "reported_location": "Danapur Cantt Low-Lying Mohalla",
+    "city": "Patna",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-pat-danapur",
+    "coordinates": {
+      "lat": 25.6324,
+      "lng": 85.0394
+    }
+  },
+  {
+    "id": "SOS-CHE-168",
+    "timestamp": "2026-10-14T04:51:13.449Z",
+    "raw_text": "Pallikaranai Marshland Enclave के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Helpline 112",
+    "sender_contact": "+91 116537 10167",
+    "reported_location": "Pallikaranai Marshland Enclave",
+    "city": "Chennai",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-che-pallikaranai",
+    "coordinates": {
+      "lat": 12.9326,
+      "lng": 80.2024
+    }
+  },
+  {
+    "id": "SOS-VIJ-169",
+    "timestamp": "2026-10-14T04:54:13.449Z",
+    "raw_text": "Flooding at Ajit Singh Nagar Sector 2. Water level reaching waist depth, 2 people stranded without food/drinking water. Need rescue boat support.",
+    "language": "en",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 116648 10168",
+    "reported_location": "Ajit Singh Nagar Sector 2",
+    "city": "Vijayawada",
+    "water_depth_estimate": "4-6 ft",
+    "people_stranded": 2,
+    "vulnerable_tags": [
+      "Food Shortage"
+    ],
+    "ground_truth_urgency": "HIGH",
+    "ground_truth_category": "FOOD_WATER",
+    "cluster_group_id": "cluster-vj-singh-nagar-sec2",
+    "coordinates": {
+      "lat": 16.5345,
+      "lng": 80.6428
+    }
+  },
+  {
+    "id": "SOS-VIJ-170",
+    "timestamp": "2026-10-14T04:57:13.449Z",
+    "raw_text": "అత్యవసరం: Pipula Road, Singh Nagar వద్ద 5 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Community Bot",
+    "sender_contact": "+91 116759 10169",
+    "reported_location": "Pipula Road, Singh Nagar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-pipula-road",
+    "coordinates": {
+      "lat": 16.537,
+      "lng": 80.6434
+    }
+  },
+  {
+    "id": "SOS-VIJ-171",
+    "timestamp": "2026-10-14T05:00:13.449Z",
+    "raw_text": "Bhavanipuram Swathi Theatre Area के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 116870 10170",
+    "reported_location": "Bhavanipuram Swathi Theatre Area",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-bhavanipuram",
+    "coordinates": {
+      "lat": 16.521,
+      "lng": 80.6008
+    }
+  },
+  {
+    "id": "SOS-VIJ-172",
+    "timestamp": "2026-10-14T05:03:13.449Z",
+    "raw_text": "Road blocked with 2ft water in Payakapuram Shanti Nagar. Are relief vehicles allowed to pass? Inquiring for relief supply truck.",
+    "language": "en",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 116981 10171",
+    "reported_location": "Payakapuram Shanti Nagar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-payakapuram-shanti",
+    "coordinates": {
+      "lat": 16.5509,
+      "lng": 80.6376
+    }
+  },
+  {
+    "id": "SOS-VIJ-173",
+    "timestamp": "2026-10-14T05:06:13.449Z",
+    "raw_text": "అత్యవసరం: Kandrika Main Bazaar వద్ద 14 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Helpline 112",
+    "sender_contact": "+91 117092 10172",
+    "reported_location": "Kandrika Main Bazaar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-kandrika-bazaar",
+    "coordinates": {
+      "lat": 16.5561,
+      "lng": 80.6429
+    }
+  },
+  {
+    "id": "SOS-VIJ-174",
+    "timestamp": "2026-10-14T05:09:13.449Z",
+    "raw_text": "Madhuranagar Railway Gate के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 117203 10173",
+    "reported_location": "Madhuranagar Railway Gate",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-madhuranagar",
+    "coordinates": {
+      "lat": 16.5174,
+      "lng": 80.6461
+    }
+  },
+  {
+    "id": "SOS-KHA-175",
+    "timestamp": "2026-10-14T05:12:13.449Z",
+    "raw_text": "URGENT MEDICAL: Elderly cardiac patient at Mothe Village Road. Water 7ft inside lane. Emergency evacuation required ASAP for 2 people.",
+    "language": "en",
+    "source": "Community Bot",
+    "sender_contact": "+91 117314 10174",
+    "reported_location": "Mothe Village Road",
+    "city": "Khammam",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 2,
+    "vulnerable_tags": [
+      "Elderly",
+      "Cardiac Patient"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "MEDICAL_EMERGENCY",
+    "cluster_group_id": "cluster-kh-mothe",
+    "coordinates": {
+      "lat": 17.2572,
+      "lng": 80.1639
+    }
+  },
+  {
+    "id": "SOS-KHA-176",
+    "timestamp": "2026-10-14T05:15:13.449Z",
+    "raw_text": "అత్యవసరం: Danavaigudem Munneru Canal వద్ద 5 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 117425 10175",
+    "reported_location": "Danavaigudem Munneru Canal",
+    "city": "Khammam",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-kh-danavaigudem",
+    "coordinates": {
+      "lat": 17.2366,
+      "lng": 80.1428
+    }
+  },
+  {
+    "id": "SOS-HYD-177",
+    "timestamp": "2026-10-14T05:18:13.449Z",
+    "raw_text": "Alwal Lake Inundation Ward 134 के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 117536 10176",
+    "reported_location": "Alwal Lake Inundation Ward 134",
+    "city": "Hyderabad",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-hyd-alwal-lake",
+    "coordinates": {
+      "lat": 17.5022,
+      "lng": 78.517
+    }
+  },
+  {
+    "id": "SOS-HYD-178",
+    "timestamp": "2026-10-14T05:21:13.449Z",
+    "raw_text": "Emergency in Chaderghat Causeway Musi Bridge. Building surrounded by 6ft swift currents. 11 trapped including small children. Please dispatch SDRF.",
+    "language": "en",
+    "source": "Helpline 112",
+    "sender_contact": "+91 117647 10177",
+    "reported_location": "Chaderghat Causeway Musi Bridge",
+    "city": "Hyderabad",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 11,
+    "vulnerable_tags": [
+      "Children",
+      "Swift Current"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-hyd-chaderghat",
+    "coordinates": {
+      "lat": 17.3806,
+      "lng": 78.4924
+    }
+  },
+  {
+    "id": "SOS-PAT-179",
+    "timestamp": "2026-10-14T05:24:13.449Z",
+    "raw_text": "అత్యవసరం: Danapur Cantt Low-Lying Mohalla వద్ద 14 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 117758 10178",
+    "reported_location": "Danapur Cantt Low-Lying Mohalla",
+    "city": "Patna",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-pat-danapur",
+    "coordinates": {
+      "lat": 25.6336,
+      "lng": 85.0406
+    }
+  },
+  {
+    "id": "SOS-CHE-180",
+    "timestamp": "2026-10-14T05:27:13.449Z",
+    "raw_text": "Pallikaranai Marshland Enclave के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Community Bot",
+    "sender_contact": "+91 117869 10179",
+    "reported_location": "Pallikaranai Marshland Enclave",
+    "city": "Chennai",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-che-pallikaranai",
+    "coordinates": {
+      "lat": 12.9342,
+      "lng": 80.202
+    }
+  },
+  {
+    "id": "SOS-VIJ-181",
+    "timestamp": "2026-10-14T05:30:13.449Z",
+    "raw_text": "Flooding at Ajit Singh Nagar Sector 2. Water level reaching waist depth, 2 people stranded without food/drinking water. Need rescue boat support.",
+    "language": "en",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 117980 10180",
+    "reported_location": "Ajit Singh Nagar Sector 2",
+    "city": "Vijayawada",
+    "water_depth_estimate": "4-6 ft",
+    "people_stranded": 2,
+    "vulnerable_tags": [
+      "Food Shortage"
+    ],
+    "ground_truth_urgency": "HIGH",
+    "ground_truth_category": "FOOD_WATER",
+    "cluster_group_id": "cluster-vj-singh-nagar-sec2",
+    "coordinates": {
+      "lat": 16.5351,
+      "lng": 80.6412
+    }
+  },
+  {
+    "id": "SOS-VIJ-182",
+    "timestamp": "2026-10-14T05:33:13.449Z",
+    "raw_text": "అత్యవసరం: Pipula Road, Singh Nagar వద్ద 5 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 118091 10181",
+    "reported_location": "Pipula Road, Singh Nagar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-pipula-road",
+    "coordinates": {
+      "lat": 16.536,
+      "lng": 80.6421
+    }
+  },
+  {
+    "id": "SOS-VIJ-183",
+    "timestamp": "2026-10-14T05:36:13.449Z",
+    "raw_text": "Bhavanipuram Swathi Theatre Area के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Helpline 112",
+    "sender_contact": "+91 118202 10182",
+    "reported_location": "Bhavanipuram Swathi Theatre Area",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-bhavanipuram",
+    "coordinates": {
+      "lat": 16.5194,
+      "lng": 80.6009
+    }
+  },
+  {
+    "id": "SOS-VIJ-184",
+    "timestamp": "2026-10-14T05:39:13.449Z",
+    "raw_text": "Road blocked with 2ft water in Payakapuram Shanti Nagar. Are relief vehicles allowed to pass? Inquiring for relief supply truck.",
+    "language": "en",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 118313 10183",
+    "reported_location": "Payakapuram Shanti Nagar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-payakapuram-shanti",
+    "coordinates": {
+      "lat": 16.5501,
+      "lng": 80.6391
+    }
+  },
+  {
+    "id": "SOS-VIJ-185",
+    "timestamp": "2026-10-14T05:42:13.449Z",
+    "raw_text": "అత్యవసరం: Kandrika Main Bazaar వద్ద 14 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Community Bot",
+    "sender_contact": "+91 118424 10184",
+    "reported_location": "Kandrika Main Bazaar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-kandrika-bazaar",
+    "coordinates": {
+      "lat": 16.5569,
+      "lng": 80.6444
+    }
+  },
+  {
+    "id": "SOS-VIJ-186",
+    "timestamp": "2026-10-14T05:45:13.449Z",
+    "raw_text": "Madhuranagar Railway Gate के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 118535 10185",
+    "reported_location": "Madhuranagar Railway Gate",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-madhuranagar",
+    "coordinates": {
+      "lat": 16.519,
+      "lng": 80.6462
+    }
+  },
+  {
+    "id": "SOS-KHA-187",
+    "timestamp": "2026-10-14T05:48:13.449Z",
+    "raw_text": "URGENT MEDICAL: Elderly cardiac patient at Mothe Village Road. Water 7ft inside lane. Emergency evacuation required ASAP for 2 people.",
+    "language": "en",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 118646 10186",
+    "reported_location": "Mothe Village Road",
+    "city": "Khammam",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 2,
+    "vulnerable_tags": [
+      "Elderly",
+      "Cardiac Patient"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "MEDICAL_EMERGENCY",
+    "cluster_group_id": "cluster-kh-mothe",
+    "coordinates": {
+      "lat": 17.2582,
+      "lng": 80.1626
+    }
+  },
+  {
+    "id": "SOS-KHA-188",
+    "timestamp": "2026-10-14T05:51:13.449Z",
+    "raw_text": "అత్యవసరం: Danavaigudem Munneru Canal వద్ద 5 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Helpline 112",
+    "sender_contact": "+91 118757 10187",
+    "reported_location": "Danavaigudem Munneru Canal",
+    "city": "Khammam",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-kh-danavaigudem",
+    "coordinates": {
+      "lat": 17.236,
+      "lng": 80.1412
+    }
+  },
+  {
+    "id": "SOS-HYD-189",
+    "timestamp": "2026-10-14T05:54:13.449Z",
+    "raw_text": "Alwal Lake Inundation Ward 134 के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 118868 10188",
+    "reported_location": "Alwal Lake Inundation Ward 134",
+    "city": "Hyderabad",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-hyd-alwal-lake",
+    "coordinates": {
+      "lat": 17.5006,
+      "lng": 78.5166
+    }
+  },
+  {
+    "id": "SOS-HYD-190",
+    "timestamp": "2026-10-14T05:57:13.449Z",
+    "raw_text": "Emergency in Chaderghat Causeway Musi Bridge. Building surrounded by 6ft swift currents. 11 trapped including small children. Please dispatch SDRF.",
+    "language": "en",
+    "source": "Community Bot",
+    "sender_contact": "+91 118979 10189",
+    "reported_location": "Chaderghat Causeway Musi Bridge",
+    "city": "Hyderabad",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 11,
+    "vulnerable_tags": [
+      "Children",
+      "Swift Current"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-hyd-chaderghat",
+    "coordinates": {
+      "lat": 17.3794,
+      "lng": 78.4936
+    }
+  },
+  {
+    "id": "SOS-PAT-191",
+    "timestamp": "2026-10-14T06:00:13.449Z",
+    "raw_text": "అత్యవసరం: Danapur Cantt Low-Lying Mohalla వద్ద 14 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 119090 10190",
+    "reported_location": "Danapur Cantt Low-Lying Mohalla",
+    "city": "Patna",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-pat-danapur",
+    "coordinates": {
+      "lat": 25.634,
+      "lng": 85.0422
+    }
+  },
+  {
+    "id": "SOS-CHE-192",
+    "timestamp": "2026-10-14T06:03:13.449Z",
+    "raw_text": "Pallikaranai Marshland Enclave के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 119201 10191",
+    "reported_location": "Pallikaranai Marshland Enclave",
+    "city": "Chennai",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-che-pallikaranai",
+    "coordinates": {
+      "lat": 12.9358,
+      "lng": 80.2026
+    }
+  },
+  {
+    "id": "SOS-VIJ-193",
+    "timestamp": "2026-10-14T06:06:13.449Z",
+    "raw_text": "Flooding at Ajit Singh Nagar Sector 2. Water level reaching waist depth, 2 people stranded without food/drinking water. Need rescue boat support.",
+    "language": "en",
+    "source": "Helpline 112",
+    "sender_contact": "+91 119312 10192",
+    "reported_location": "Ajit Singh Nagar Sector 2",
+    "city": "Vijayawada",
+    "water_depth_estimate": "4-6 ft",
+    "people_stranded": 2,
+    "vulnerable_tags": [
+      "Food Shortage"
+    ],
+    "ground_truth_urgency": "HIGH",
+    "ground_truth_category": "FOOD_WATER",
+    "cluster_group_id": "cluster-vj-singh-nagar-sec2",
+    "coordinates": {
+      "lat": 16.5364,
+      "lng": 80.6402
+    }
+  },
+  {
+    "id": "SOS-VIJ-194",
+    "timestamp": "2026-10-14T06:09:13.449Z",
+    "raw_text": "అత్యవసరం: Pipula Road, Singh Nagar వద్ద 5 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 119423 10193",
+    "reported_location": "Pipula Road, Singh Nagar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-pipula-road",
+    "coordinates": {
+      "lat": 16.5359,
+      "lng": 80.6404
+    }
+  },
+  {
+    "id": "SOS-VIJ-195",
+    "timestamp": "2026-10-14T06:12:13.449Z",
+    "raw_text": "Bhavanipuram Swathi Theatre Area के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Community Bot",
+    "sender_contact": "+91 119534 10194",
+    "reported_location": "Bhavanipuram Swathi Theatre Area",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-bhavanipuram",
+    "coordinates": {
+      "lat": 16.5179,
+      "lng": 80.6001
+    }
+  },
+  {
+    "id": "SOS-VIJ-196",
+    "timestamp": "2026-10-14T06:15:13.449Z",
+    "raw_text": "Road blocked with 2ft water in Payakapuram Shanti Nagar. Are relief vehicles allowed to pass? Inquiring for relief supply truck.",
+    "language": "en",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 119645 10195",
+    "reported_location": "Payakapuram Shanti Nagar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-payakapuram-shanti",
+    "coordinates": {
+      "lat": 16.5487,
+      "lng": 80.6399
+    }
+  },
+  {
+    "id": "SOS-VIJ-197",
+    "timestamp": "2026-10-14T06:18:13.449Z",
+    "raw_text": "అత్యవసరం: Kandrika Main Bazaar వద్ద 14 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 119756 10196",
+    "reported_location": "Kandrika Main Bazaar",
+    "city": "Vijayawada",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-vj-kandrika-bazaar",
+    "coordinates": {
+      "lat": 16.5568,
+      "lng": 80.646
+    }
+  },
+  {
+    "id": "SOS-VIJ-198",
+    "timestamp": "2026-10-14T06:21:13.449Z",
+    "raw_text": "Madhuranagar Railway Gate के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "Helpline 112",
+    "sender_contact": "+91 119867 10197",
+    "reported_location": "Madhuranagar Railway Gate",
+    "city": "Vijayawada",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-vj-madhuranagar",
+    "coordinates": {
+      "lat": 16.5204,
+      "lng": 80.6472
+    }
+  },
+  {
+    "id": "SOS-KHA-199",
+    "timestamp": "2026-10-14T06:24:13.449Z",
+    "raw_text": "URGENT MEDICAL: Elderly cardiac patient at Mothe Village Road. Water 7ft inside lane. Emergency evacuation required ASAP for 2 people.",
+    "language": "en",
+    "source": "SMS Dispatch",
+    "sender_contact": "+91 119978 10198",
+    "reported_location": "Mothe Village Road",
+    "city": "Khammam",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 2,
+    "vulnerable_tags": [
+      "Elderly",
+      "Cardiac Patient"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "MEDICAL_EMERGENCY",
+    "cluster_group_id": "cluster-kh-mothe",
+    "coordinates": {
+      "lat": 17.2598,
+      "lng": 80.162
+    }
+  },
+  {
+    "id": "SOS-KHA-200",
+    "timestamp": "2026-10-14T06:27:13.449Z",
+    "raw_text": "అత్యవసరం: Danavaigudem Munneru Canal వద్ద 5 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Community Bot",
+    "sender_contact": "+91 120089 10199",
+    "reported_location": "Danavaigudem Munneru Canal",
+    "city": "Khammam",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 5,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-kh-danavaigudem",
+    "coordinates": {
+      "lat": 17.2364,
+      "lng": 80.1396
+    }
+  },
+  {
+    "id": "SOS-HYD-201",
+    "timestamp": "2026-10-14T06:30:13.449Z",
+    "raw_text": "Alwal Lake Inundation Ward 134 के पास जलभराव है। क्या यहां राहत शिविर खुला है? भोजन पैकेट कहां मिलेंगे?",
+    "language": "hi",
+    "source": "WhatsApp SOS",
+    "sender_contact": "+91 120200 10200",
+    "reported_location": "Alwal Lake Inundation Ward 134",
+    "city": "Hyderabad",
+    "water_depth_estimate": "1-3 ft",
+    "people_stranded": 0,
+    "vulnerable_tags": [],
+    "ground_truth_urgency": "LOW",
+    "ground_truth_category": "INFO_REQUEST",
+    "cluster_group_id": "cluster-hyd-alwal-lake",
+    "coordinates": {
+      "lat": 17.4994,
+      "lng": 78.5155
+    }
+  },
+  {
+    "id": "SOS-HYD-202",
+    "timestamp": "2026-10-14T06:33:13.449Z",
+    "raw_text": "Emergency in Chaderghat Causeway Musi Bridge. Building surrounded by 6ft swift currents. 11 trapped including small children. Please dispatch SDRF.",
+    "language": "en",
+    "source": "Twitter/X Alert",
+    "sender_contact": "+91 120311 10201",
+    "reported_location": "Chaderghat Causeway Musi Bridge",
+    "city": "Hyderabad",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 11,
+    "vulnerable_tags": [
+      "Children",
+      "Swift Current"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-hyd-chaderghat",
+    "coordinates": {
+      "lat": 17.3778,
+      "lng": 78.494
+    }
+  },
+  {
+    "id": "SOS-PAT-203",
+    "timestamp": "2026-10-14T06:36:13.449Z",
+    "raw_text": "అత్యవసరం: Danapur Cantt Low-Lying Mohalla వద్ద 14 మంది చిక్కుకుపోయారు. పసిపిల్లలు మరియు వృద్ధులు ఉన్నారు. దయచేసి ఎన్డీఆర్ఎఫ్ బృందాన్ని పంపించండి.",
+    "language": "te",
+    "source": "Helpline 112",
+    "sender_contact": "+91 120422 10202",
+    "reported_location": "Danapur Cantt Low-Lying Mohalla",
+    "city": "Patna",
+    "water_depth_estimate": "7-9 ft",
+    "people_stranded": 14,
+    "vulnerable_tags": [
+      "Infants",
+      "Elderly"
+    ],
+    "ground_truth_urgency": "CRITICAL",
+    "ground_truth_category": "RESCUE_BOAT",
+    "cluster_group_id": "cluster-pat-danapur",
+    "coordinates": {
+      "lat": 25.6334,
+      "lng": 85.0438
+    }
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "name": "Whisper - AI Flood Distress Triage & Multilingual Dispatch",
+  "description": "Autonomous AI triage service for real-world flood distress calls with semantic deduplication, OpenStreetMap geocoding, and multilingual emergency broadcast generation (EN/HI/TE).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
