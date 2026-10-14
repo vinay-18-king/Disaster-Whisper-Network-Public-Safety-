@@ -20,6 +20,7 @@ import {
   Activity,
   ArrowRight,
   ShieldAlert,
+  GitMerge,
 } from 'lucide-react';
 import { IncidentRecord, RescueTeam, StatusHistoryItem } from '../types';
 
@@ -80,31 +81,60 @@ export const FeedView: React.FC<FeedViewProps> = ({
   const getUrgencyText = (urgency: string) => {
     switch (urgency) {
       case 'CRITICAL':
-        return <span className="text-red-400 font-bold uppercase tracking-wider text-xs">Critical</span>;
+        return (
+          <span className="px-2 py-0.5 rounded-md font-bold uppercase tracking-wider text-[11px] bg-rose-500/20 text-rose-300 border border-rose-500/50 flex items-center gap-1.5 shadow-sm shadow-rose-950/40">
+            <span className="w-1.5 h-1.5 rounded-full bg-rose-400 animate-ping" />
+            Critical
+          </span>
+        );
       case 'HIGH':
-        return <span className="text-amber-400 font-medium uppercase tracking-wider text-xs">High</span>;
+        return (
+          <span className="px-2 py-0.5 rounded-md font-bold uppercase tracking-wider text-[11px] bg-amber-500/20 text-amber-300 border border-amber-500/40 shadow-sm shadow-amber-950/30">
+            High
+          </span>
+        );
       case 'MEDIUM':
-        return <span className="text-blue-400 font-medium uppercase tracking-wider text-xs">Medium</span>;
+        return (
+          <span className="px-2 py-0.5 rounded-md font-bold uppercase tracking-wider text-[11px] bg-cyan-500/20 text-cyan-300 border border-cyan-500/40">
+            Medium
+          </span>
+        );
       default:
-        return <span className="text-slate-400 font-medium uppercase tracking-wider text-xs">Low</span>;
+        return (
+          <span className="px-2 py-0.5 rounded-md font-semibold uppercase tracking-wider text-[11px] bg-emerald-500/15 text-emerald-300 border border-emerald-500/30">
+            Low
+          </span>
+        );
     }
   };
 
   const getStatusText = (status: string) => {
     switch (status) {
       case 'DISPATCHED':
-        return <span className="text-xs text-indigo-400 font-medium">In-Transit</span>;
+        return (
+          <span className="text-xs px-2.5 py-0.5 rounded-md font-semibold bg-indigo-500/20 text-indigo-300 border border-indigo-500/40 flex items-center gap-1">
+            <Ship className="w-3 h-3 text-indigo-400" /> In-Transit
+          </span>
+        );
       case 'ON_SCENE':
-        return <span className="text-xs text-amber-300 font-medium">On-Scene</span>;
+        return (
+          <span className="text-xs px-2.5 py-0.5 rounded-md font-semibold bg-amber-500/20 text-amber-300 border border-amber-500/40 flex items-center gap-1">
+            <MapPin className="w-3 h-3 text-amber-400" /> On-Scene
+          </span>
+        );
       case 'EVACUATED':
       case 'RESOLVED':
         return (
-          <span className="text-xs text-emerald-400 font-medium flex items-center gap-1">
-            <CheckCircle className="w-3 h-3" /> Evacuated
+          <span className="text-xs px-2.5 py-0.5 rounded-md font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 flex items-center gap-1 shadow-sm shadow-emerald-950/40">
+            <CheckCircle className="w-3 h-3 text-emerald-400" /> Evacuated
           </span>
         );
       default:
-        return <span className="text-xs text-slate-500 font-medium">Received</span>;
+        return (
+          <span className="text-xs px-2 py-0.5 rounded-md font-medium bg-slate-800 text-slate-300 border border-slate-700">
+            Received
+          </span>
+        );
     }
   };
 
@@ -325,32 +355,47 @@ export const FeedView: React.FC<FeedViewProps> = ({
             const timelineEvents = getTimelineEvents(inc);
             const stageInfo = getRescueStageInfo(inc);
 
+            let cardStyle = 'border-slate-800/90 bg-slate-900/60 hover:border-slate-700/80';
+            let topGlow = null;
+            if (inc.triage.urgency === 'CRITICAL') {
+              cardStyle = 'border-rose-500/40 bg-gradient-to-br from-rose-950/25 via-slate-900/90 to-slate-950 shadow-md shadow-rose-950/40 hover:border-rose-400/60';
+              topGlow = <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-rose-500 to-transparent opacity-90" />;
+            } else if (inc.triage.urgency === 'HIGH') {
+              cardStyle = 'border-amber-500/35 bg-gradient-to-br from-amber-950/20 via-slate-900/90 to-slate-950 shadow-sm shadow-amber-950/30 hover:border-amber-400/50';
+              topGlow = <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-amber-400 to-transparent opacity-80" />;
+            } else if (inc.triage.urgency === 'MEDIUM') {
+              cardStyle = 'border-cyan-500/30 bg-gradient-to-br from-cyan-950/15 via-slate-900/90 to-slate-950 shadow-sm shadow-cyan-950/20 hover:border-cyan-400/50';
+              topGlow = <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-cyan-400 to-transparent opacity-80" />;
+            } else {
+              cardStyle = 'border-emerald-500/25 bg-gradient-to-br from-emerald-950/10 via-slate-900/90 to-slate-950 hover:border-emerald-400/40';
+            }
+
             return (
               <div
                 key={inc.id}
-                className={`bg-slate-900/60 rounded-xl border transition-colors shadow-sm ${
-                  isCritical
-                    ? 'border-red-500/30 hover:border-red-500/50'
-                    : 'border-slate-800 hover:border-slate-700/80'
-                }`}
+                className={`relative overflow-hidden rounded-xl border transition-all duration-200 ${cardStyle}`}
               >
+                {topGlow}
+
                 {/* Header Row */}
                 <div className="px-4 py-2.5 border-b border-slate-800/80 flex flex-wrap items-center justify-between gap-2 text-xs">
-                  {/* Metadata line without pills */}
+                  {/* Metadata line */}
                   <div className="flex items-center gap-2 text-slate-400 font-mono text-[11px] flex-wrap">
                     {getUrgencyText(inc.triage.urgency)}
                     <span aria-hidden="true" className="text-slate-600">·</span>
-                    <span className="font-semibold text-slate-200">{inc.id}</span>
+                    <span className="font-bold text-slate-200">{inc.id}</span>
                     <span aria-hidden="true" className="text-slate-600">·</span>
-                    <span>{inc.raw_message.source}</span>
+                    <span className="text-slate-300 font-medium">{inc.raw_message.source}</span>
                     <span aria-hidden="true" className="text-slate-600">·</span>
-                    <span>
+                    <span className="text-cyan-400/90 font-medium">
                       {new Date(inc.created_at).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
                     </span>
                     {inc.is_duplicate && (
                       <>
                         <span aria-hidden="true" className="text-slate-600">·</span>
-                        <span className="text-purple-400">Duplicate Signal</span>
+                        <span className="px-1.5 py-0.2 rounded text-[10px] bg-purple-500/20 text-purple-300 border border-purple-500/40 font-semibold">
+                          Duplicate Signal
+                        </span>
                       </>
                     )}
                   </div>
@@ -359,7 +404,7 @@ export const FeedView: React.FC<FeedViewProps> = ({
                     {getStatusText(inc.status)}
                     <button
                       onClick={() => handleCopyReport(inc)}
-                      className="text-slate-500 hover:text-slate-300 transition-colors"
+                      className="text-slate-400 hover:text-cyan-300 transition-colors p-1 rounded hover:bg-slate-800/60"
                       title="Copy tactical dispatch report"
                     >
                       {copiedId === inc.id ? (
@@ -374,66 +419,73 @@ export const FeedView: React.FC<FeedViewProps> = ({
                 {/* Body Content */}
                 <div className="p-4 space-y-3">
                   {/* Distress text */}
-                  <div className="text-sm text-slate-200 font-medium leading-relaxed">
+                  <div className="text-sm text-slate-100 font-medium leading-relaxed">
                     "{inc.raw_message.raw_text}"
                   </div>
 
                   {/* Multilingual summaries */}
                   {(inc.triage.summary_te || inc.triage.summary_hi) && (
-                    <div className="text-xs text-slate-400 space-y-0.5 border-l-2 border-slate-700 pl-2.5 py-0.5">
+                    <div className="text-xs text-slate-300 space-y-1 border-l-2 border-cyan-500/60 pl-3 py-1 bg-cyan-950/20 rounded-r-md">
                       {inc.triage.summary_te && (
                         <div>
-                          <span className="text-slate-500">Telugu:</span> {inc.triage.summary_te}
+                          <span className="text-cyan-400 font-semibold">Telugu:</span> {inc.triage.summary_te}
                         </div>
                       )}
                       {inc.triage.summary_hi && (
                         <div>
-                          <span className="text-slate-500">Hindi:</span> {inc.triage.summary_hi}
+                          <span className="text-amber-400 font-semibold">Hindi:</span> {inc.triage.summary_hi}
                         </div>
                       )}
                     </div>
                   )}
 
-                  {/* Clean unboxed metadata strip */}
-                  <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-slate-400 pt-1">
-                    <span className="flex items-center gap-1.5 text-slate-200">
-                      <MapPin className="w-3.5 h-3.5 text-slate-500" />
+                  {/* Metadata strip */}
+                  <div className="flex flex-wrap items-center gap-x-4 gap-y-1.5 text-xs text-slate-400 pt-1">
+                    <span className="flex items-center gap-1.5 text-slate-200 font-medium">
+                      <MapPin className="w-3.5 h-3.5 text-rose-400" />
                       <span>{inc.triage.extracted_location}</span>
                     </span>
 
-                    <span className="flex items-center gap-1.5">
-                      <Droplets className="w-3.5 h-3.5 text-cyan-500" />
-                      <span>{inc.triage.water_depth}</span>
+                    <span className="flex items-center gap-1.5 px-2 py-0.5 rounded bg-cyan-950/40 border border-cyan-800/40 text-cyan-300 font-mono text-[11px]">
+                      <Droplets className="w-3.5 h-3.5 text-cyan-400" />
+                      <span>Depth: {inc.triage.water_depth}</span>
                     </span>
 
-                    <span className="flex items-center gap-1.5 font-mono">
-                      <Users className="w-3.5 h-3.5 text-amber-500" />
-                      <span className="text-slate-200 font-medium">
-                        {inc.triage.people_stranded} stranded
-                      </span>
+                    <span className="flex items-center gap-1.5 px-2 py-0.5 rounded bg-amber-950/40 border border-amber-800/40 text-amber-300 font-mono text-[11px]">
+                      <Users className="w-3.5 h-3.5 text-amber-400" />
+                      <span className="font-bold">{inc.triage.people_stranded} stranded</span>
                     </span>
 
                     <span className="flex items-center gap-1.5 font-mono text-slate-400">
-                      <Phone className="w-3.5 h-3.5 text-slate-500" />
-                      <span>{inc.raw_message.sender_contact || 'Unlisted'}</span>
+                      <Phone className="w-3.5 h-3.5 text-slate-400" />
+                      <span className="text-slate-300">{inc.raw_message.sender_contact || 'Unlisted'}</span>
                     </span>
                   </div>
 
                   {/* Vulnerabilities & Action Directive */}
                   <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-slate-800/60 text-xs">
-                    <div className="flex items-center gap-2 text-slate-400">
+                    <div className="flex items-center gap-1.5 flex-wrap">
                       {inc.triage.vulnerable_tags.length > 0 ? (
-                        <span>
-                          <strong className="text-red-400">Alerts:</strong>{' '}
-                          {inc.triage.vulnerable_tags.join(' · ')}
-                        </span>
+                        <>
+                          <span className="text-[11px] font-bold text-rose-400 uppercase tracking-wider">Alerts:</span>
+                          {inc.triage.vulnerable_tags.map((tag) => (
+                            <span
+                              key={tag}
+                              className="px-2 py-0.5 rounded-full text-[10px] font-semibold bg-rose-500/15 text-rose-300 border border-rose-500/30"
+                            >
+                              {tag}
+                            </span>
+                          ))}
+                        </>
                       ) : (
-                        <span>Category: {inc.triage.category.replace('_', ' ')}</span>
+                        <span className="text-slate-400">
+                          Category: <span className="text-slate-200 font-medium">{inc.triage.category.replace('_', ' ')}</span>
+                        </span>
                       )}
                     </div>
 
-                    <div className="text-blue-300 font-medium flex items-center gap-1.5">
-                      <Sparkles className="w-3.5 h-3.5 text-blue-400 shrink-0" />
+                    <div className="text-cyan-300 font-semibold flex items-center gap-1.5 bg-cyan-950/30 px-2.5 py-1 rounded-lg border border-cyan-500/30">
+                      <Sparkles className="w-3.5 h-3.5 text-cyan-400 shrink-0" />
                       <span>{inc.triage.tactical_action_plan}</span>
                     </div>
                   </div>
@@ -443,19 +495,20 @@ export const FeedView: React.FC<FeedViewProps> = ({
                     <div className="pt-2">
                       <button
                         onClick={() => toggleDuplicateExpand(inc.id)}
-                        className="text-xs text-purple-400 hover:text-purple-300 font-medium flex items-center gap-1 transition-colors"
+                        className="text-xs text-purple-400 hover:text-purple-300 font-semibold flex items-center gap-1.5 transition-colors bg-purple-950/30 px-2.5 py-1 rounded-lg border border-purple-500/30"
                       >
+                        <GitMerge className="w-3.5 h-3.5" />
                         <span>
                           {duplicatesForCluster.length} duplicate call{duplicatesForCluster.length > 1 ? 's' : ''} merged into this cluster
                         </span>
-                        {isDupExpanded ? <ChevronUp className="w-3 h-3" /> : <ChevronDown className="w-3 h-3" />}
+                        {isDupExpanded ? <ChevronUp className="w-3 h-3 ml-1" /> : <ChevronDown className="w-3 h-3 ml-1" />}
                       </button>
 
                       {isDupExpanded && (
-                        <div className="mt-2 space-y-1.5 pl-3 border-l border-purple-500/30">
+                        <div className="mt-2 space-y-1.5 pl-3 border-l-2 border-purple-500/40 bg-purple-950/15 p-2 rounded-r-lg">
                           {duplicatesForCluster.map((dup) => (
-                            <div key={dup.id} className="text-xs text-slate-400 py-1">
-                              <span className="font-mono text-slate-500 text-[10px] mr-2">
+                            <div key={dup.id} className="text-xs text-slate-300 py-1">
+                              <span className="font-mono text-purple-300 font-bold text-[10px] mr-2">
                                 {dup.id} ({dup.raw_message.source})
                               </span>
                               <span className="italic text-slate-300">"{dup.raw_message.raw_text}"</span>
@@ -469,34 +522,35 @@ export const FeedView: React.FC<FeedViewProps> = ({
                   {/* Subtle Rescue Stage Progress Bar with Expandable Timeline Trigger */}
                   <div className="pt-2.5 pb-0.5 border-t border-slate-800/60">
                     <div className="flex items-center justify-between text-[11px] mb-1.5">
-                      <span className="text-[10px] text-slate-500 uppercase tracking-wider font-medium">
+                      <span className="text-[10px] text-slate-400 uppercase tracking-wider font-bold flex items-center gap-1">
+                        <Activity className="w-3 h-3 text-cyan-400" />
                         Rescue Progress
                       </span>
 
                       {/* Clickable toggle to expand vertical timeline view */}
                       <button
                         onClick={() => toggleTimelineExpand(inc.id)}
-                        className="flex items-center gap-1.5 text-xs text-slate-300 hover:text-blue-400 transition-colors cursor-pointer group"
+                        className="flex items-center gap-1.5 text-xs text-slate-300 hover:text-cyan-300 transition-colors cursor-pointer group"
                         title="Click to view full vertical status history timeline"
                       >
-                        <Clock className="w-3 h-3 text-blue-400 group-hover:rotate-45 transition-transform" />
-                        <span className={`font-mono text-xs font-semibold ${
-                          stageInfo.index === 3 ? 'text-emerald-400' :
-                          stageInfo.index === 2 ? 'text-indigo-400' :
-                          stageInfo.index === 1 ? 'text-blue-400' :
-                          'text-slate-400'
+                        <Clock className="w-3 h-3 text-cyan-400 group-hover:rotate-45 transition-transform" />
+                        <span className={`font-mono text-xs font-bold ${
+                          stageInfo.index === 3 ? 'text-emerald-300' :
+                          stageInfo.index === 2 ? 'text-indigo-300' :
+                          stageInfo.index === 1 ? 'text-amber-300' :
+                          'text-sky-300'
                         }`}>
                           Stage {stageInfo.index + 1} of 4: {stageInfo.label}
                         </span>
                         {isTimelineExpanded ? (
-                          <ChevronUp className="w-3.5 h-3.5 text-slate-400 group-hover:text-blue-400" />
+                          <ChevronUp className="w-3.5 h-3.5 text-slate-400 group-hover:text-cyan-300" />
                         ) : (
-                          <ChevronDown className="w-3.5 h-3.5 text-slate-400 group-hover:text-blue-400" />
+                          <ChevronDown className="w-3.5 h-3.5 text-slate-400 group-hover:text-cyan-300" />
                         )}
                       </button>
                     </div>
 
-                    {/* Progress Bar Grid */}
+                    {/* Multi-Color Progress Bar Grid */}
                     <div
                       onClick={() => toggleTimelineExpand(inc.id)}
                       className="grid grid-cols-4 gap-2 cursor-pointer group"
@@ -506,20 +560,22 @@ export const FeedView: React.FC<FeedViewProps> = ({
                         const isCompleted = sIdx < stageInfo.index;
                         const isCurrent = sIdx === stageInfo.index;
 
+                        // Vibrant stage colors
+                        const stageGradients = [
+                          'bg-gradient-to-r from-sky-500 to-cyan-400 shadow-sm shadow-cyan-900/40',
+                          'bg-gradient-to-r from-amber-500 to-yellow-400 shadow-sm shadow-amber-900/40',
+                          'bg-gradient-to-r from-indigo-500 to-purple-500 shadow-sm shadow-indigo-900/40',
+                          'bg-gradient-to-r from-emerald-500 to-teal-400 shadow-sm shadow-emerald-900/40',
+                        ];
+
                         let fillClass = 'bg-slate-800';
-                        if (isCompleted) {
-                          fillClass = 'bg-blue-600/70';
-                        } else if (isCurrent) {
-                          fillClass = stageInfo.index === 3
-                            ? 'bg-emerald-500'
-                            : stageInfo.index === 2
-                            ? 'bg-indigo-500'
-                            : 'bg-blue-500';
+                        if (isCompleted || isCurrent) {
+                          fillClass = stageGradients[sIdx];
                         }
 
                         return (
                           <div key={stageName} className="space-y-1">
-                            <div className="h-1.5 w-full rounded-full bg-slate-800/80 overflow-hidden group-hover:bg-slate-800 transition-colors">
+                            <div className="h-2 w-full rounded-full bg-slate-950 border border-slate-800 overflow-hidden group-hover:border-slate-700 transition-colors">
                               <div
                                 className={`h-full transition-all duration-300 rounded-full ${fillClass} ${
                                   isCompleted || isCurrent ? 'w-full' : 'w-0'
@@ -528,21 +584,21 @@ export const FeedView: React.FC<FeedViewProps> = ({
                             </div>
                             <div className="flex items-center justify-between text-[10px]">
                               <span
-                                className={`transition-colors ${
+                                className={`transition-colors font-medium ${
                                   isCurrent
-                                    ? 'text-slate-100 font-semibold'
+                                    ? 'text-white font-bold'
                                     : isCompleted
-                                    ? 'text-slate-400'
+                                    ? 'text-slate-300'
                                     : 'text-slate-600'
                                 }`}
                               >
                                 {stageName}
                               </span>
                               {isCompleted && (
-                                <span className="text-blue-400 text-[9px] font-mono">✓</span>
+                                <span className="text-cyan-400 text-[10px] font-mono font-bold">✓</span>
                               )}
                               {isCurrent && stageInfo.index === 3 && (
-                                <span className="text-emerald-400 text-[9px] font-mono">✓</span>
+                                <span className="text-emerald-400 text-[10px] font-mono font-bold">✓</span>
                               )}
                             </div>
                           </div>
@@ -553,38 +609,38 @@ export const FeedView: React.FC<FeedViewProps> = ({
 
                   {/* EXPANDABLE VERTICAL TIMELINE VIEW */}
                   {isTimelineExpanded && (
-                    <div className="mt-3 pt-3 pb-2 px-3 bg-slate-950/70 rounded-xl border border-slate-800 space-y-3 animate-fadeIn">
-                      <div className="flex items-center justify-between pb-1.5 border-b border-slate-800/80 text-[11px]">
-                        <div className="flex items-center gap-1.5 font-semibold text-slate-200">
-                          <History className="w-3.5 h-3.5 text-blue-400" />
-                          <span>Status Change History & Vertical Timeline</span>
+                    <div className="mt-3 pt-3 pb-2 px-3 bg-gradient-to-b from-slate-950 via-slate-950/90 to-slate-900/40 rounded-xl border border-slate-800/90 space-y-3 animate-fadeIn shadow-inner">
+                      <div className="flex items-center justify-between pb-1.5 border-b border-slate-800 text-[11px]">
+                        <div className="flex items-center gap-1.5 font-bold text-slate-100">
+                          <History className="w-3.5 h-3.5 text-cyan-400" />
+                          <span>Status Change History &amp; Vertical Timeline</span>
                         </div>
-                        <span className="text-[10px] text-slate-400 font-mono">
+                        <span className="text-[10px] text-cyan-300 font-mono px-2 py-0.5 rounded bg-cyan-950/40 border border-cyan-800/40 font-semibold">
                           {timelineEvents.length} chronological milestones
                         </span>
                       </div>
 
-                      {/* Connected Vertical Timeline Track */}
-                      <div className="relative pl-6 space-y-3.5 before:absolute before:left-2.5 before:top-2 before:bottom-2 before:w-0.5 before:bg-slate-800">
+                      {/* Connected Vertical Timeline Track with Vivid Gradient */}
+                      <div className="relative pl-6 space-y-3.5 before:absolute before:left-2.5 before:top-2 before:bottom-2 before:w-0.5 before:bg-gradient-to-b before:from-cyan-400 before:via-amber-400 to-emerald-400">
                         {timelineEvents.map((event, idx) => {
                           const isLatest = idx === timelineEvents.length - 1;
-                          let nodeColor = 'border-blue-500 bg-blue-950 text-blue-400';
+                          let nodeColor = 'border-cyan-400 bg-cyan-950 text-cyan-300 shadow-cyan-900/50';
                           if (event.severity === 'urgent') {
-                            nodeColor = 'border-red-500 bg-red-950 text-red-400';
+                            nodeColor = 'border-rose-400 bg-rose-950 text-rose-300 shadow-rose-900/50';
                           } else if (event.severity === 'warning') {
-                            nodeColor = 'border-amber-500 bg-amber-950 text-amber-400';
+                            nodeColor = 'border-amber-400 bg-amber-950 text-amber-300 shadow-amber-900/50';
                           } else if (event.severity === 'success') {
-                            nodeColor = 'border-emerald-500 bg-emerald-950 text-emerald-400';
+                            nodeColor = 'border-emerald-400 bg-emerald-950 text-emerald-300 shadow-emerald-900/50';
                           }
 
                           return (
                             <div key={event.id || idx} className="relative group">
                               {/* Node Circle on Vertical Rail */}
                               <div
-                                className={`absolute -left-6 top-0.5 w-5 h-5 rounded-full border-2 ${nodeColor} flex items-center justify-center shadow-sm z-10`}
+                                className={`absolute -left-6 top-0.5 w-5 h-5 rounded-full border-2 ${nodeColor} flex items-center justify-center shadow-md z-10`}
                               >
                                 {isLatest ? (
-                                  <div className="w-1.5 h-1.5 rounded-full bg-current animate-ping" />
+                                  <div className="w-2 h-2 rounded-full bg-current animate-ping" />
                                 ) : (
                                   <div className="w-1.5 h-1.5 rounded-full bg-current" />
                                 )}
@@ -594,26 +650,28 @@ export const FeedView: React.FC<FeedViewProps> = ({
                               <div className="space-y-0.5">
                                 <div className="flex items-baseline gap-2 flex-wrap">
                                   {/* Precise Timestamp + Title */}
-                                  <span className="font-mono text-xs font-bold text-slate-100">
-                                    {event.display_time} - {event.title}
+                                  <span className="font-mono text-xs font-bold text-white">
+                                    <span className="text-cyan-300">{event.display_time}</span> - {event.title}
                                   </span>
 
                                   {/* Actor / Source Tag */}
                                   {event.actor && (
                                     <span className="text-[10px] text-slate-400 font-mono flex items-center gap-1">
                                       <span>via</span>
-                                      <span className="text-slate-300 font-medium">{event.actor}</span>
+                                      <span className="text-slate-200 font-semibold px-1.5 py-0.2 rounded bg-slate-800/80 border border-slate-700/60">
+                                        {event.actor}
+                                      </span>
                                     </span>
                                   )}
 
                                   {isLatest && (
-                                    <span className="text-[9px] font-mono text-emerald-400 bg-emerald-950/60 px-1.5 py-0.2 rounded border border-emerald-800/60 ml-auto">
+                                    <span className="text-[9px] font-mono text-emerald-300 bg-emerald-950/70 px-2 py-0.5 rounded-full border border-emerald-500/50 ml-auto font-bold animate-pulse">
                                       CURRENT STATE
                                     </span>
                                   )}
                                 </div>
 
-                                <p className="text-xs text-slate-400 leading-relaxed pl-0.5">
+                                <p className="text-xs text-slate-300 leading-relaxed pl-0.5">
                                   {event.description}
                                 </p>
                               </div>
@@ -625,12 +683,12 @@ export const FeedView: React.FC<FeedViewProps> = ({
                       {/* Quick stage transition note */}
                       <div className="pt-2 border-t border-slate-800/60 flex items-center justify-between text-[11px] text-slate-400">
                         <span className="flex items-center gap-1 text-[10px]">
-                          <Activity className="w-3 h-3 text-slate-500" />
+                          <Activity className="w-3 h-3 text-cyan-400" />
                           <span>All timestamp logs cryptographically linked for post-incident audit.</span>
                         </span>
                         <button
                           onClick={() => toggleTimelineExpand(inc.id)}
-                          className="text-slate-400 hover:text-slate-200 text-[10px]"
+                          className="text-cyan-400 hover:text-cyan-300 text-[10px] font-semibold"
                         >
                           Collapse Timeline
                         </button>
@@ -639,41 +697,42 @@ export const FeedView: React.FC<FeedViewProps> = ({
                   )}
                 </div>
 
-                {/* Footer Action Bar */}
-                <div className="px-4 py-2.5 bg-slate-950/40 border-t border-slate-800/80 flex flex-wrap items-center justify-between gap-2 text-xs">
+                {/* Footer Action Bar with Vibrant Colors */}
+                <div className="px-4 py-2.5 bg-slate-950/60 border-t border-slate-800/80 flex flex-wrap items-center justify-between gap-2 text-xs">
                   <div className="flex items-center gap-3">
                     {onSelectIncidentOnMap && (
                       <button
                         onClick={() => onSelectIncidentOnMap(inc)}
-                        className="text-slate-400 hover:text-slate-200 flex items-center gap-1 transition-colors"
+                        className="text-slate-300 hover:text-cyan-300 flex items-center gap-1.5 transition-colors font-medium p-1 rounded hover:bg-slate-800/50"
                       >
-                        <MapPin className="w-3 h-3" /> View Map
+                        <MapPin className="w-3.5 h-3.5 text-cyan-400" /> View on Map
                       </button>
                     )}
 
                     {/* Timeline button in footer */}
                     <button
                       onClick={() => toggleTimelineExpand(inc.id)}
-                      className="text-slate-400 hover:text-blue-400 flex items-center gap-1 transition-colors"
+                      className="text-slate-300 hover:text-cyan-300 flex items-center gap-1.5 transition-colors font-medium p-1 rounded hover:bg-slate-800/50"
                     >
-                      <Clock className="w-3 h-3 text-slate-500" />
+                      <Clock className="w-3.5 h-3.5 text-amber-400" />
                       <span>{isTimelineExpanded ? 'Hide History' : `History (${timelineEvents.length})`}</span>
                     </button>
 
                     {inc.assigned_team && (
-                      <span className="text-slate-400 font-medium flex items-center gap-1">
-                        <Ship className="w-3 h-3 text-indigo-400" />
-                        <span>Team: <strong className="text-slate-200">{inc.assigned_team}</strong></span>
+                      <span className="text-indigo-300 font-semibold flex items-center gap-1.5 px-2 py-0.5 rounded bg-indigo-950/40 border border-indigo-500/30">
+                        <Ship className="w-3.5 h-3.5 text-indigo-400" />
+                        <span>Team: <strong className="text-white">{inc.assigned_team}</strong></span>
                       </span>
                     )}
                   </div>
 
-                  {/* Dispatch Controls */}
+                  {/* Dispatch Controls with Rich Gradient Buttons */}
                   <div className="relative">
                     {dispatchMenuId === inc.id ? (
-                      <div className="absolute right-0 bottom-full mb-1 w-60 bg-slate-900 border border-slate-700 rounded-lg shadow-xl p-2 z-20 space-y-1">
-                        <div className="text-[11px] font-semibold text-slate-400 pb-1 border-b border-slate-800">
-                          Select Squad to Assign:
+                      <div className="absolute right-0 bottom-full mb-1 w-64 bg-slate-900 border border-slate-700 rounded-xl shadow-2xl p-2 z-20 space-y-1">
+                        <div className="text-[11px] font-bold text-slate-300 pb-1.5 border-b border-slate-800 flex items-center justify-between">
+                          <span>Select Squad to Assign:</span>
+                          <span className="text-xs text-cyan-400 font-mono">6 UNITS</span>
                         </div>
                         {teams.map((t) => (
                           <button
@@ -682,15 +741,17 @@ export const FeedView: React.FC<FeedViewProps> = ({
                               onUpdateStatus(inc.id, 'PENDING', t.id);
                               setDispatchMenuId(null);
                             }}
-                            className="w-full text-left p-1.5 rounded hover:bg-slate-800 flex items-center justify-between text-slate-200 transition-colors"
+                            className="w-full text-left p-1.5 rounded-lg hover:bg-slate-800 flex items-center justify-between text-slate-200 transition-colors"
                           >
-                            <span className="truncate">{t.name}</span>
-                            <span className="text-[10px] text-slate-400 uppercase font-mono">{t.status}</span>
+                            <span className="truncate font-medium">{t.name}</span>
+                            <span className="text-[10px] text-cyan-400 uppercase font-mono font-bold bg-cyan-950/60 px-1.5 py-0.2 rounded border border-cyan-800/50">
+                              {t.status}
+                            </span>
                           </button>
                         ))}
                         <button
                           onClick={() => setDispatchMenuId(null)}
-                          className="w-full text-center text-slate-500 hover:text-slate-300 pt-1 text-[11px]"
+                          className="w-full text-center text-slate-400 hover:text-slate-200 pt-1 text-[11px]"
                         >
                           Cancel
                         </button>
@@ -700,7 +761,7 @@ export const FeedView: React.FC<FeedViewProps> = ({
                         {inc.status === 'PENDING' && !inc.assigned_team && (
                           <button
                             onClick={() => setDispatchMenuId(inc.id)}
-                            className="px-3 py-1 bg-blue-600 hover:bg-blue-500 text-white font-medium rounded-md transition-colors"
+                            className="px-3 py-1.5 bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-500 hover:to-cyan-500 text-white font-bold rounded-lg transition-all shadow-md shadow-blue-950/50 border border-blue-400/40 text-xs"
                           >
                             Assign Squad
                           </button>
@@ -708,7 +769,7 @@ export const FeedView: React.FC<FeedViewProps> = ({
                         {inc.status === 'PENDING' && inc.assigned_team && (
                           <button
                             onClick={() => onUpdateStatus(inc.id, 'DISPATCHED', inc.assigned_team)}
-                            className="px-3 py-1 bg-indigo-600 hover:bg-indigo-500 text-white font-medium rounded-md transition-colors"
+                            className="px-3 py-1.5 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white font-bold rounded-lg transition-all shadow-md shadow-indigo-950/50 border border-indigo-400/40 text-xs"
                           >
                             Dispatch Squad
                           </button>
@@ -716,7 +777,7 @@ export const FeedView: React.FC<FeedViewProps> = ({
                         {inc.status === 'DISPATCHED' && (
                           <button
                             onClick={() => onUpdateStatus(inc.id, 'ON_SCENE', inc.assigned_team)}
-                            className="px-3 py-1 bg-amber-600 hover:bg-amber-500 text-white font-medium rounded-md transition-colors"
+                            className="px-3 py-1.5 bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-500 hover:to-orange-500 text-white font-bold rounded-lg transition-all shadow-md shadow-amber-950/50 border border-amber-400/40 text-xs"
                           >
                             Mark On-Scene
                           </button>
@@ -724,14 +785,14 @@ export const FeedView: React.FC<FeedViewProps> = ({
                         {inc.status === 'ON_SCENE' && (
                           <button
                             onClick={() => onUpdateStatus(inc.id, 'EVACUATED', inc.assigned_team)}
-                            className="px-3 py-1 bg-emerald-600 hover:bg-emerald-500 text-white font-medium rounded-md transition-colors"
+                            className="px-3 py-1.5 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-bold rounded-lg transition-all shadow-md shadow-emerald-950/50 border border-emerald-400/40 text-xs"
                           >
                             Mark Evacuated
                           </button>
                         )}
                         {inc.status === 'EVACUATED' && (
-                          <span className="text-emerald-400 font-medium flex items-center gap-1 text-xs">
-                            <CheckCircle className="w-3.5 h-3.5" /> Evacuation Completed
+                          <span className="text-emerald-300 font-bold flex items-center gap-1.5 text-xs bg-emerald-950/40 px-2.5 py-1 rounded-lg border border-emerald-500/40 shadow-sm shadow-emerald-950/40">
+                            <CheckCircle className="w-3.5 h-3.5 text-emerald-400" /> Evacuation Completed
                           </span>
                         )}
                       </div>

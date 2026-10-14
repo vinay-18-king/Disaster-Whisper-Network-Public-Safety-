@@ -244,19 +244,25 @@ export default function App() {
         {activeTab === 'feed' && (
           <div className="space-y-4">
             {/* Command Dashboard Layout Switcher (Makes Map visible to all by default) */}
-            <div className="flex flex-wrap items-center justify-between gap-3 bg-slate-900/60 p-2.5 rounded-xl border border-slate-800 text-xs">
-              <div className="flex items-center gap-2 font-medium text-slate-300">
-                <Layers className="w-4 h-4 text-blue-400" />
+            <div className="flex flex-wrap items-center justify-between gap-3 bg-gradient-to-r from-slate-900/90 via-slate-900/60 to-slate-950 p-2.5 rounded-xl border border-slate-800 shadow-md text-xs">
+              <div className="flex items-center gap-2.5 font-semibold text-slate-200">
+                <span className="p-1 rounded-md bg-cyan-500/10 text-cyan-400 border border-cyan-500/30">
+                  <Layers className="w-4 h-4" />
+                </span>
                 <span>Command Dashboard View:</span>
+                <span className="hidden md:inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-mono font-bold bg-emerald-500/15 text-emerald-300 border border-emerald-500/30">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
+                  MAP ONLINE
+                </span>
               </div>
 
-              <div className="flex items-center gap-1.5 bg-slate-950 p-1 rounded-lg border border-slate-800">
+              <div className="flex items-center gap-1.5 bg-slate-950/90 p-1 rounded-xl border border-slate-800 shadow-inner">
                 <button
                   onClick={() => setDashboardLayout('split')}
-                  className={`px-3 py-1 rounded font-medium transition-colors flex items-center gap-1.5 ${
+                  className={`px-3 py-1.5 rounded-lg font-semibold transition-all duration-200 flex items-center gap-1.5 border ${
                     dashboardLayout === 'split'
-                      ? 'bg-blue-600 text-white shadow-sm'
-                      : 'text-slate-400 hover:text-slate-200'
+                      ? 'bg-gradient-to-r from-blue-600 to-cyan-600 text-white border-cyan-400/50 shadow-md shadow-blue-950/60'
+                      : 'text-slate-400 border-transparent hover:text-cyan-300 hover:bg-slate-800/40'
                   }`}
                   title="Show Tactical Map & Live Feed side-by-side or stacked"
                 >
@@ -266,10 +272,10 @@ export default function App() {
 
                 <button
                   onClick={() => setDashboardLayout('queue')}
-                  className={`px-3 py-1 rounded font-medium transition-colors flex items-center gap-1.5 ${
+                  className={`px-3 py-1.5 rounded-lg font-semibold transition-all duration-200 flex items-center gap-1.5 border ${
                     dashboardLayout === 'queue'
-                      ? 'bg-blue-600 text-white shadow-sm'
-                      : 'text-slate-400 hover:text-slate-200'
+                      ? 'bg-gradient-to-r from-rose-600 to-amber-600 text-white border-rose-400/50 shadow-md shadow-rose-950/60'
+                      : 'text-slate-400 border-transparent hover:text-rose-300 hover:bg-slate-800/40'
                   }`}
                 >
                   <Radio className="w-3.5 h-3.5" />
@@ -278,10 +284,10 @@ export default function App() {
 
                 <button
                   onClick={() => setDashboardLayout('map')}
-                  className={`px-3 py-1 rounded font-medium transition-colors flex items-center gap-1.5 ${
+                  className={`px-3 py-1.5 rounded-lg font-semibold transition-all duration-200 flex items-center gap-1.5 border ${
                     dashboardLayout === 'map'
-                      ? 'bg-blue-600 text-white shadow-sm'
-                      : 'text-slate-400 hover:text-slate-200'
+                      ? 'bg-gradient-to-r from-emerald-600 to-teal-600 text-white border-emerald-400/50 shadow-md shadow-emerald-950/60'
+                      : 'text-slate-400 border-transparent hover:text-emerald-300 hover:bg-slate-800/40'
                   }`}
                 >
                   <MapPin className="w-3.5 h-3.5" />

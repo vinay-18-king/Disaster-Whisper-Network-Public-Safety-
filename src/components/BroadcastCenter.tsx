@@ -158,16 +158,16 @@ export const BroadcastCenter: React.FC<BroadcastCenterProps> = ({
             <button
               onClick={handleGenerate}
               disabled={isLoading}
-              className="w-full py-2 bg-blue-600 hover:bg-blue-500 disabled:bg-slate-800 text-white font-medium text-xs rounded-lg flex items-center justify-center gap-1.5 transition-colors cursor-pointer mt-1"
+              className="w-full py-2.5 bg-gradient-to-r from-orange-600 via-amber-600 to-rose-600 hover:from-orange-500 hover:to-rose-500 disabled:opacity-50 text-white font-bold text-xs rounded-lg flex items-center justify-center gap-2 transition-all cursor-pointer mt-1 shadow-md shadow-orange-950/50 border border-orange-400/30"
             >
               {isLoading ? (
                 <>
                   <div className="w-3.5 h-3.5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-                  <span>Synthesizing Alerts...</span>
+                  <span>Synthesizing Multilingual Bulletins (Gemini)...</span>
                 </>
               ) : (
                 <>
-                  <Sparkles className="w-3.5 h-3.5" />
+                  <Sparkles className="w-3.5 h-3.5 text-amber-300" />
                   <span>Generate Multilingual Alerts</span>
                 </>
               )}
@@ -176,37 +176,39 @@ export const BroadcastCenter: React.FC<BroadcastCenterProps> = ({
         </div>
 
         {/* Right Preview */}
-        <div className="lg:col-span-7 bg-slate-900/60 border border-slate-800 rounded-xl p-4 space-y-3">
+        <div className="lg:col-span-7 bg-slate-900/60 border border-slate-800 rounded-xl p-4 space-y-3 shadow-lg">
           {activeBroadcast ? (
             <div className="space-y-3">
               <div className="flex items-center justify-between pb-2 border-b border-slate-800 text-xs">
                 <div>
-                  <span className="font-mono text-slate-500 text-[10px]">LATEST RELEASE: {activeBroadcast.id}</span>
-                  <div className="font-semibold text-slate-200">{activeBroadcast.zone_name}</div>
+                  <span className="font-mono text-cyan-400 text-[10px] font-bold px-1.5 py-0.5 rounded bg-cyan-950/40 border border-cyan-800/40">
+                    LATEST RELEASE: {activeBroadcast.id}
+                  </span>
+                  <div className="font-bold text-white mt-1 text-sm">{activeBroadcast.zone_name}</div>
                 </div>
-                <div className="flex items-center gap-1 text-slate-500 font-mono text-[11px]">
-                  <Clock className="w-3 h-3" />
+                <div className="flex items-center gap-1.5 text-cyan-300 font-mono text-[11px] bg-slate-950/80 px-2 py-1 rounded-md border border-slate-800">
+                  <Clock className="w-3.5 h-3.5 text-cyan-400" />
                   <span>{new Date(activeBroadcast.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</span>
                 </div>
               </div>
 
-              {/* Segmented Format Switcher */}
-              <div className="flex gap-1 overflow-x-auto pb-1 bg-slate-950/60 p-1 rounded-lg border border-slate-800">
+              {/* Segmented Format Switcher with Vivid Channel Colors */}
+              <div className="flex gap-1.5 overflow-x-auto pb-1 bg-slate-950/80 p-1.5 rounded-xl border border-slate-800">
                 {[
-                  { id: 'TE', label: 'తెలుగు (Telugu)' },
-                  { id: 'HI', label: 'हिंदी (Hindi)' },
-                  { id: 'EN', label: 'English' },
-                  { id: 'WHATSAPP', label: 'WhatsApp' },
-                  { id: 'SMS', label: 'SMS' },
-                  { id: 'AUDIO', label: 'Loudspeaker Script' },
+                  { id: 'TE', label: 'తెలుగు (Telugu)', active: 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40' },
+                  { id: 'HI', label: 'हिंदी (Hindi)', active: 'bg-amber-500/20 text-amber-300 border-amber-500/40' },
+                  { id: 'EN', label: 'English', active: 'bg-cyan-500/20 text-cyan-300 border-cyan-500/40' },
+                  { id: 'WHATSAPP', label: '💬 WhatsApp', active: 'bg-emerald-600 text-white border-emerald-400/50 shadow-md shadow-emerald-950/60' },
+                  { id: 'SMS', label: '📱 SMS Blast', active: 'bg-indigo-600 text-white border-indigo-400/50 shadow-md shadow-indigo-950/60' },
+                  { id: 'AUDIO', label: '📢 Loudspeaker Script', active: 'bg-rose-600 text-white border-rose-400/50 shadow-md shadow-rose-950/60' },
                 ].map((tab) => (
                   <button
                     key={tab.id}
                     onClick={() => setActiveTab(tab.id as any)}
-                    className={`px-2.5 py-1 text-xs font-medium rounded whitespace-nowrap transition-colors ${
+                    className={`px-3 py-1.5 text-xs font-semibold rounded-lg whitespace-nowrap transition-all border ${
                       activeTab === tab.id
-                        ? 'bg-slate-800 text-white font-semibold'
-                        : 'text-slate-400 hover:text-slate-200'
+                        ? `${tab.active} shadow-sm`
+                        : 'text-slate-400 border-transparent hover:text-slate-200 hover:bg-slate-800/40'
                     }`}
                   >
                     {tab.label}

@@ -546,27 +546,30 @@ export const TacticalMap: React.FC<TacticalMapProps> = ({
 
       {/* Primary Floating Header Toolbar */}
       <div className="absolute top-3 left-3 z-10 flex flex-wrap items-center gap-2 bg-slate-900/90 backdrop-blur border border-slate-800 p-2 rounded-xl text-xs text-slate-200 shadow-xl max-w-[calc(100%-24px)]">
-        <div className="flex items-center gap-1.5 font-semibold text-slate-200 pr-2 border-r border-slate-800">
-          <Layers className="w-3.5 h-3.5 text-blue-400" />
+        {/* Tactical Title with glowing icon */}
+        <div className="flex items-center gap-1.5 font-bold text-white pr-2 border-r border-slate-800">
+          <span className="p-1 rounded-md bg-cyan-500/20 text-cyan-400 border border-cyan-500/40">
+            <Layers className="w-3.5 h-3.5" />
+          </span>
           <span>Tactical Map</span>
         </div>
 
-        {/* Basemap Key in Map & Visible to All indicator */}
-        <div className="flex items-center gap-1.5 px-2 py-0.5 rounded bg-slate-950 border border-slate-800 text-[11px]">
-          <Globe className="w-3.5 h-3.5 text-blue-400" />
-          <span className="font-semibold text-slate-200">
+        {/* Basemap Key in Map & Visible to All indicator - High-Visibility Vivid Tactical HUD */}
+        <div className="flex items-center gap-2 px-2.5 py-1 rounded-lg bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950 border border-cyan-500/40 text-[11px] shadow-sm shadow-cyan-950/40">
+          <Globe className="w-3.5 h-3.5 text-cyan-400 animate-spin-slow" />
+          <span className="font-bold text-white tracking-tight">
             {basemapStyle === 'voyager' ? 'Carto Voyager' : basemapStyle === 'dark' ? 'Carto Dark' : 'OpenStreetMap'}
           </span>
           <button
             onClick={() => setShowKeyModal(true)}
-            className="flex items-center gap-1 px-1.5 py-0.5 rounded bg-blue-950/80 border border-blue-800/70 text-[10px] text-blue-300 font-mono hover:bg-blue-900 transition-colors cursor-pointer"
+            className="flex items-center gap-1.5 px-2 py-0.5 rounded-md bg-cyan-950/80 border border-cyan-500/50 text-[10px] text-cyan-200 font-mono font-bold hover:bg-cyan-900/80 hover:border-cyan-400 transition-all cursor-pointer shadow-sm shadow-cyan-950/60"
             title="Click to view & configure Map API Key & Tile Server"
           >
-            <Key className="w-2.5 h-2.5 text-emerald-400" />
+            <Key className="w-3 h-3 text-emerald-400" />
             <span>key={mapKey}</span>
           </button>
-          <span className="hidden sm:inline-flex items-center gap-1 text-[10px] text-emerald-400 font-medium pl-1 border-l border-slate-800">
-            <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span className="hidden sm:inline-flex items-center gap-1.5 text-[10px] text-emerald-300 font-bold pl-1.5 border-l border-slate-800">
+            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
             Visible to all
           </span>
         </div>
@@ -575,7 +578,7 @@ export const TacticalMap: React.FC<TacticalMapProps> = ({
         <select
           value={basemapStyle}
           onChange={(e) => setBasemapStyle(e.target.value as any)}
-          className="bg-slate-950 border border-slate-800 rounded px-2 py-1 text-slate-300 text-xs focus:outline-none cursor-pointer"
+          className="bg-slate-950 border border-slate-800 rounded-lg px-2.5 py-1 text-cyan-200 text-xs font-semibold focus:outline-none cursor-pointer hover:border-slate-700"
           title="Select Basemap Tile Layer"
         >
           <option value="voyager">Carto Voyager (Key Enabled)</option>

@@ -61,34 +61,37 @@ export const DedupMatrix: React.FC<DedupMatrixProps> = ({ incidents }) => {
         </p>
       </div>
 
-      {/* KPI Row */}
+      {/* KPI Row with Vibrant Colors */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-        <div className="bg-slate-900/60 border border-slate-800 rounded-xl p-3.5">
-          <span className="text-[11px] text-slate-400 font-medium">Duplicate Signal Suppression</span>
-          <div className="text-2xl font-bold text-purple-300 font-mono tracking-tight tabular-nums mt-1">
+        <div className="relative overflow-hidden bg-gradient-to-br from-purple-950/40 via-slate-900/90 to-slate-950 border border-purple-500/35 rounded-xl p-3.5 shadow-sm shadow-purple-950/30">
+          <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-purple-400 to-transparent opacity-80" />
+          <span className="text-[11px] text-purple-300 font-bold uppercase tracking-wider">Duplicate Signal Suppression</span>
+          <div className="text-3xl font-black text-purple-200 font-mono tracking-tight tabular-nums mt-1">
             {suppressionRate}%
           </div>
-          <span className="text-xs text-slate-500 mt-0.5 block">
+          <span className="text-xs text-purple-400/80 font-medium mt-0.5 block">
             {totalDuplicates} redundant calls merged
           </span>
         </div>
 
-        <div className="bg-slate-900/60 border border-slate-800 rounded-xl p-3.5">
-          <span className="text-[11px] text-slate-400 font-medium">Redundant Boat Dispatches Prevented</span>
-          <div className="text-2xl font-bold text-emerald-400 font-mono tracking-tight tabular-nums mt-1">
+        <div className="relative overflow-hidden bg-gradient-to-br from-emerald-950/40 via-slate-900/90 to-slate-950 border border-emerald-500/35 rounded-xl p-3.5 shadow-sm shadow-emerald-950/30">
+          <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-emerald-400 to-transparent opacity-80" />
+          <span className="text-[11px] text-emerald-300 font-bold uppercase tracking-wider">Redundant Dispatches Prevented</span>
+          <div className="text-3xl font-black text-emerald-300 font-mono tracking-tight tabular-nums mt-1">
             {boatTripsSaved} trips
           </div>
-          <span className="text-xs text-slate-500 mt-0.5 block">
+          <span className="text-xs text-emerald-400/80 font-medium mt-0.5 block">
             Prevents multiple crews racing to same rooftop
           </span>
         </div>
 
-        <div className="bg-slate-900/60 border border-slate-800 rounded-xl p-3.5">
-          <span className="text-[11px] text-slate-400 font-medium">Consolidated Master Sites</span>
-          <div className="text-2xl font-bold text-slate-200 font-mono tracking-tight tabular-nums mt-1">
+        <div className="relative overflow-hidden bg-gradient-to-br from-cyan-950/40 via-slate-900/90 to-slate-950 border border-cyan-500/35 rounded-xl p-3.5 shadow-sm shadow-cyan-950/30">
+          <div className="absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-cyan-400 to-transparent opacity-80" />
+          <span className="text-[11px] text-cyan-300 font-bold uppercase tracking-wider">Consolidated Master Sites</span>
+          <div className="text-3xl font-black text-cyan-200 font-mono tracking-tight tabular-nums mt-1">
             {clusters.length}
           </div>
-          <span className="text-xs text-slate-500 mt-0.5 block">
+          <span className="text-xs text-cyan-400/80 font-medium mt-0.5 block">
             Distinct rescue coordinates
           </span>
         </div>
@@ -97,10 +100,15 @@ export const DedupMatrix: React.FC<DedupMatrixProps> = ({ incidents }) => {
       {/* Cluster Split View */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-5">
         {/* Left: Cluster List */}
-        <div className="lg:col-span-4 bg-slate-900/60 border border-slate-800 rounded-xl p-3.5 space-y-2">
+        <div className="lg:col-span-4 bg-slate-900/60 border border-slate-800 rounded-xl p-3.5 space-y-2 shadow-md">
           <div className="flex items-center justify-between pb-2 border-b border-slate-800 text-xs">
-            <span className="font-semibold text-slate-300">Active Clusters</span>
-            <span className="text-slate-500 font-mono">{clusters.length} clusters</span>
+            <span className="font-bold text-white flex items-center gap-1.5">
+              <GitMerge className="w-3.5 h-3.5 text-purple-400" />
+              <span>Active Clusters</span>
+            </span>
+            <span className="text-purple-300 font-mono font-bold text-[11px] bg-purple-950/60 px-2 py-0.5 rounded border border-purple-800/60">
+              {clusters.length} clusters
+            </span>
           </div>
 
           <div className="space-y-1.5 max-h-[500px] overflow-y-auto pr-1">
@@ -112,10 +120,10 @@ export const DedupMatrix: React.FC<DedupMatrixProps> = ({ incidents }) => {
                 <button
                   key={c.id}
                   onClick={() => setSelectedClusterId(c.id)}
-                  className={`w-full text-left p-2.5 rounded-lg border transition-colors ${
+                  className={`w-full text-left p-2.5 rounded-lg border transition-all ${
                     isSelected
-                      ? 'bg-slate-800 border-slate-600 text-white'
-                      : 'bg-slate-950/60 hover:bg-slate-800/50 border-slate-800 text-slate-300'
+                      ? 'bg-gradient-to-r from-purple-950/80 to-slate-900 border-purple-500/60 text-white shadow-md shadow-purple-950/40'
+                      : 'bg-slate-950/60 hover:bg-slate-800/50 border-slate-800 text-slate-300 hover:border-slate-700'
                   }`}
                 >
                   <div className="flex items-center justify-between text-xs">
